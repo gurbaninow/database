@@ -1,37 +1,46 @@
 version: 2
 jobs:
-  build:
+  backport:
     docker:
-      - image: circleci/node:10.13
+      - image: cimg/python:3.9-node
     steps:
       - checkout
       - run: npm ci
-      - run:
-          name: Build database
-          command: npm run build-sqlite
-      - store_artifacts:
-          path: build/database.sqlite
       - add_ssh_keys:
           fingerprints:
-            - "e5:71:50:86:4f:6c:3e:f6:8b:f2:d5:45:ec:f0:9a:f1"
+            - 'e5:71:50:86:4f:6c:3e:f6:8b:f2:d5:45:ec:f0:9a:f1'
       - run:
-          name: Run tests
-          command: npm run test
-      - deploy:
-          name: Release database on Github
+          name: Backport to main
           command: |
-            if [ "${CIRCLE_BRANCH}" == "master" ]; then
-              # Write npm token to .npmrc
-              echo "//registry.npmjs.org/:_authToken=$NPM_TOKEN" >> ~/.npmrc
+            # Configure git
+            git config --global push.default current
+            git config --global user.email "team@shabados.com"
+            git config --global user.name "ShabadOS Bot"
 
-              # Configure git
-              git config --global push.default current
-              git config --global user.email "team@shabados.com"
-              git config --global user.name "ShabadOS Bot"
+            # Run backport script aginst next
+            npm run backport
 
-              # Run Release script
-              chmod +x release.sh
-              echo "Releasing on Github"
+            # Store backported data
+            git stash push -- data
 
-              npm run release
-            fi
+            # Remove data folder from main and add backported data
+            git checkout main
+            rm -rf data
+            git checkout stash -- .
+
+            # Push backport to main
+            git reset
+            git add data
+            ## Temporarily always run a patch release for changes
+            git commit -m "feat(data): sync #Patch backport from ${CIRCLE_SHA1}" || true
+            git push origin main
+
+workflows:
+  version: 2
+  publish_backport:
+    jobs:
+      - backport:
+          filters:
+            branches:
+              only:
+                - next

@@ -1,159 +1,272 @@
-# Shabad OS Database
+<img src="https://raw.githubusercontent.com/shabados/presenter/dev/resources/icon.png" width="128" alt="Shabad OS">
 
-<div align="center">
-  <img src="./repologo.png">
-</div>
-<br/>
-<div align="center">
+# Database
 
-A digital representation of Sikh Bani and other Panthic texts with a public logbook of sangat-sourced corrections.
+A digital representation of Sikh Bani and other Panthic texts with a public logbook of sangat-sourced corrections
 
-[![CircleCI](https://img.shields.io/circleci/project/github/ShabadOS/database.svg?style=flat)](https://circleci.com/gh/ShabadOS/database)
-[![Github All Releases](https://img.shields.io/github/downloads/ShabadOS/database/total.svg?style=flat)](https://github.com/ShabadOS/database/releases)
-[![npm (scoped)](https://img.shields.io/npm/v/@shabados/database.svg?style=flat)](https://www.npmjs.com/package/@shabados/database)
-[![David](https://img.shields.io/david/ShabadOS/database.svg?style=flat)]()
-[![license](https://img.shields.io/github/license/ShabadOS/database.svg?style=flat)]()
-<br/>
-[![Email](https://img.shields.io/badge/Email-team%40shabados.com-blue.svg)](mailto:team@shabados.com) [![WhatsApp](https://img.shields.io/badge/WhatsApp-%2B1--516--619--6059-brightgreen.svg)](https://wa.me/15166196059) [![Slack](https://img.shields.io/badge/Slack-join%20the%20conversation-B649AB.svg)](https://slack.shabados.com)
-<br/>
-**[Full Docs](https://shabados.github.io/database)**
-</div>
+[![NPM Version][npm-image]][npm-url]
+[![NPM Downloads][downloads-image]][downloads-url]
+[![Release][release-image]][release-url]
+[![Next Release][next-image]][next-url]
 
-# Table of Contents
+**Table of Contents**
 
-- [Shabad OS Database](#shabad-os-database)
-- [Table of Contents](#table-of-contents)
-- [Getting Started](#getting-started)
-- [Schema & File Structure](#schema--file-structure)
-- [Build](#build)
-  - [Database](#database)
-  - [JSON](#json)
-  - [Import](#import)
+- [Introduction](#introduction)
+  - [Features](#features)
+  - [Screenshots](#screenshots)
+    - [Proofreading Flow [GIF]](#proofreading-flow-gif)
+    - [Database Schema Layout](#database-schema-layout)
+    - [NPM JS package API [GIF]](#npm-js-package-api-gif)
+- [Community](#community)
 - [Contributing](#contributing)
-  - [Folder structure](#folder-structure)
-- [Releases](#releases)
-- [Benchmarks](#benchmarks)
-- [Viewers](#viewers)
-- [Licenses](#licenses)
+- [People](#people)
+- [Feedback](#feedback)
+- [Related Projects](#related-projects)
+- [Code of Conduct](#code-of-conduct)
+- [License](#license)
+- [Gurbani and Panthic Compositions](#gurbani-and-panthic-compositions)
+  - [Sri Guru Granth Sahib Ji](#sri-guru-granth-sahib-ji)
+  - [Sri Dasam Granth](#sri-dasam-granth)
+  - [Bhai Gurdaas Ji](#bhai-gurdaas-ji)
+  - [Bhai Nand Laal Ji](#bhai-nand-laal-ji)
+- [Acknowledgments](#acknowledgments)
 
-# Getting Started
+## Introduction
 
-Install the database with `npm install @shabados/database`. An [`objection.js`](http://vincit.github.io/objection.js/) object is returned, allowing for flexible and relational querying. To fetch a Shabad with first letters:
+Shabad OS Database is an open source project with ongoing development, project management, and marketing made possible entirely by the support and dedication of unpaid volunteers.
 
-```javascript
-// const { Lines } = require('./index') // If using this repo
-const { Lines } = require('@shabados/database') // If using npm module
-    
-// Fetch the line, with information about the shabad
-Lines
-  .query() // Start a query on the lines table
-  .firstLetters('ਹਹਹਗ')   // Search for the first letters, ordering the results sensibly
-  .first()  // Use the first line that is returned
-  .then(line => line.$relatedQuery('shabad').eager('[lines, writer]'))  // Return the shabad the line is from, with the lines and writer
-  .then(shabad => console.log(shabad))
+### Features
+
+- Open-source
+  - Content, history, and modifications are publicly accessible
+  - Transparency through open-source is more accountable (i.e. anyone can verify integrity)
+  - Duplication of effort among different parties is reduced
+  - Sustainability and longevity of project is improved
+- Quality / Accuracy
+  - Backed by real, physical sources (no controversy)
+  - Digitally represents what was written/printed
+  - Photographic evidence continuously reviewed for accuracy
+  - Multiple sources used to digitize gurbani, panthic texts, language translations, and exegesis
+- Modern database schema
+  - Designed to capture data effectively
+  - Ideal for developing apps, analyzing data, or undertaking research
+- API
+  - The `@shabados/database` npm JS package can query the database without SQL
+
+### Screenshots
+
+#### Proofreading Flow [GIF]
+
+Shabad OS Database follows a high-quality, publicly accessible, verifiable, and accountable proofreading process. The following GIF contains:
+
+1. [PR for Ganj Nama](https://github.com/ShabadOS/database/pull/1253)
+2. [Git diff of all changes](https://github.com/ShabadOS/database/pull/1253/files)
+3. [Commit message with citation](https://github.com/ShabadOS/database/pull/1253/commits/7d90070a31b4d5ef4446d8f45a642c68bf5b8da5))
+
+<img src="docs/proofreading.gif" width="640">
+
+#### Database Schema Layout
+
+This image may be out of date. [View the schema on SQLDBM](https://app.sqldbm.com/MySQL/Share/pNAqT007VSFLHnCdfAc9NkGFrngIE8md_DYjF4jNYw0) for the most up-to-date file.
+
+<img src="docs/schema.png" width="640">
+
+#### NPM JS package API [GIF]
+
+Example of querying database without SQL:
+
+<img src="docs/db-npm-api.gif" width="640">
+
+## Community
+
+Get updates on Shabad OS and chat with the project maintainers and community members.
+
+- [![Instagram][instagram-image]][instagram-url] Follow Shabad OS on Instagram
+- [![Twitter][twitter-image]][twitter-url] Follow Shabad OS on Twitter.
+- [![Chat][chat-image]][chat-url] Join the official Slack channel.
+
+## Contributing
+
+There are multiple ways to contribute whether you are a user or developer. For example:
+
+- Review physical sources and compare them to what has been digitized. [Learn more about proofreading >](https://tutorials.shabados.com/tutorials/1.0.0/database-viewer/proofreading.html)
+- Submit proofreading tickets. Help us verify whether they are legit. [Explore our proofreading issue tracker >](https://github.com/ShabadOS/database/issues)
+- [Submit bugs and feature requests][new-issue-url].
+- Review documentation and make pull requests for anything from typos to new content.
+- Give feedback on the onboarding process to make it easier for others to join the project.
+
+If you're interested in contributing to the source code of Database, then please see [Contributing Guidelines](CONTRIBUTING.md).
+
+## People
+
+The original code was written by the current lead maintainer, Harjot Singh ([@harjot1singh](https://github.com/harjot1singh)).
+
+"Thank you!" to [all the volunteers][contributor-url] who've contributed to Database.
+
+## Feedback
+
+- Ask questions and get help in our community chat via [Slack][chat-url]
+- [Upvote popular feature requests][upvote-tracker-url] using the thumbs-up/+1 reaction on the first post of a feature request
+- Follow [@shabad_os on Instagram](instagram-url) and [@shabad_os on Twitter](twitter-url) and let us know what you think!
+
+## Related Projects
+
+Projects in the Shabad OS ecosystem of free and open source software include:
+
+- [Viewer](https://github.com/shabados/viewer)
+- [Presenter](https://github.com/shabados/presenter)
+- [Mobile](https://github.com/shabados/mobile)
+- [Gurmukhi Utils](https://github.com/shabados/gurmukhi-utils)
+
+## Code of Conduct
+
+Please note that this project is released under the Contributor Covenant. By participating in this project you agree to abide by its terms. Our intention is to signal a safe open-source community by welcoming all people to contribute, and pledging in return to value them as whole human beings and to foster an atmosphere of kindness, cooperation, and understanding.
+
+> We as members, contributors, and leaders pledge to make participation in our community a harassment-free experience for everyone, regardless of age, body size, visible or invisible disability, ethnicity, sex characteristics, gender identity and expression, level of experience, education, socio-economic status, nationality, personal appearance, race, religion, or sexual identity and orientation.
+>
+> We pledge to act and interact in ways that contribute to an open, welcoming, diverse, inclusive, and healthy community.
+>
+> [The Contributor Covenant][contributor-covenant-url]
+
+## License
+
+**NOTE**: Applies to code and content resting outside of the `data` folder.
+
+This project is under v3 of the [GPL](LICENSE.md). It is similar to the Golden Rule: do unto others as you would have them do unto you. In exchange for benefitting from the work completed in this repo, others must share their derivative work under v3 of the [GPL](LICENSE.md).
+
+> This program is free software: you can redistribute it and/or modify it under the terms of the GNU General Public License as published by the Free Software Foundation, either version 3 of the License, or (at your option) any later version.
+>
+> This program is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU General Public License for more details.
+>
+> You should have received a copy of the GNU General Public License along with this program. If not, see <https://www.gnu.org/licenses/>.
+
+## Gurbani and Panthic Compositions
+
+**NOTE**: Applies to different texts inside the `data` folder, generated inside the `build` folder, and as releases (e.g. GitHub, npm).
+
+As typical of many old, historical works, most gurbani and panthic texts are free of known copyright restrictions. We identify it as being in the [public domain](https://creativecommons.org/publicdomain/mark/1.0/) as a work of factual compilation with originality. The honor and reputation of the original works are to be maintained. Derogatory treatments (including adding to, deleting from, altering of, or adapting) the words in a way that distorts or mutilates the original work is forbidden. That is why, whenever possible, physical sources are used to determine the digital representation of these works as to avoid any controversy.
+
+Citations for accuracy and review are based on MLA formatting. More often than not, a condensed version of the following is used when citing changes to any of the sources in the database:
+
+```shell
+Author. Title of source. Title of container, Other contributors, Version, Number, Publisher, City of Publication, Publication Date, Location. Date of access.
 ```
 
-To search in the ascii equivalent, the API will automatically convert the search to unicode:
+### Sri Guru Granth Sahib Ji
 
-```javascript
-Lines.query().firstLetters('kkggAnj')
+```shell
+Shabadaarth. Vol. 1-4, SGPC, Sri Amritsar, 2009-2012, www.archive.org/details/ShabdaarthSriGuruGranthSahibJi-Part1. Accessed 22 Jan 2019.
 ```
 
-> Although column names are in `snake_case`, the API returns `camelCase` via [objection.js](http://vincit.github.io/objection.js/#snake-case-to-camel-case-conversion).
+Vishraam / Pauses:
 
-# Schema & File Structure
-
-![schema](schema.png)
-
-The schema can be modified in the `migrations/schema.js` file.
-
-JSON files for `Raags`, `Sources`, `Writers`, and `Line_Types` can be found in the `data` folder. Changing a value here will be reflected everywhere else. The `(array index) + 1` represents the id used for each relation in other tables.
-
-Lines of JSON files are split by page or other sensible method via `./data/source/number.json`.
-
-Bani compilations can be added to the `bani.json`. To define the lines it contains, each bani should contain a list of objects with `start_line` and `end_line`, referring to the files in `sources`.
-
-# Build
-
-It is possible to make small changes and build a database from the JSON files and in reverse to make batch changes and build the JSON files from the database. Additionally, 
-*some* SQLite files can be imported.
-
-## Database
-
-You can build an SQLite3 database with the following methods:
-
-**Node.js** - Install [node](https://nodejs.org/). Install dependencies and build with `npm install && npm run build-sqlite`.
-
-**Docker** - Install [docker](http://docker.com). Build with `docker-compose up build-sqlite`. Check the `build` folder.
-
-## JSON
-
-> Instead of making bulk changes to JSON files as a pull request, we highly urge you to submit an issue of the change first instead for visibility and security.
-
-It is best practice to build the database, make changes to `database.sqlite`, and regenerate JSON files with the following methods:
-
-**Node.js** - `npm run build-json`
-
-**Docker** - `docker-compose up build-json`
-
-## Import
-
-It's possible to import other sqlite files. Run `npm run import -- --help` to see all options.
-
-The importer will generate placeholder Sources, Translation Sources, and fill in `-1` for Shabad sections and Writer IDs. These must be corrected in `build/database.sqlite`. (Refer to [Database](#database) and [JSON](#json) above).
-
-```bash
-npm run import -- nandlal.sqlite nandlal -o ID -s ShabadID -2 ShabadID -S SourceID -t English -t Punjabi -p PageNo -l LineNo -g Gurmukhi
+```shell
+Dauder, Jaswant S. Sri Guru Granth Sahib Ji Shudh Ucharan, Arth Paath Vishraam Pothi, Sri Damdami Taksaal. Oct 2015, www.gursevak.com/drupal7/sites/default/files/Vishram%20Sri%20Guru%20Granth%20Sahib%20Jee.pdf. Accessed 18 May 2020.
 ```
 
-# Contributing
+Arth / Translations:
 
-By making a pull request of changes to the `data` folder, others can submit spelling mistakes, grammar errors, and translation improvements. Format for errors should follow the guideline for git commits:
+```shell
+Singh, Sahib. Sri Guru Granth Darpan. Vol. 1-10, Raaj Publishers, Hoshiarpur/Jalandhar, 1972, www.archive.org/details/SriGuruGranthSahibDarpan-Volume1. Accessed 18 May 2020.
 
-```
-Subject: What for/in Line XXXX
+Singh, Badan. Fridkot Wala Teeka. Bh. Baljinder Singh Rara Sahib, www.ik13.com/PDFS/Fridkot_Wala_Teeka.pdf. Accessed 24 May 2020.
 
-Description:
-From where did you source the information (Include title, year, and other pertinent information for 3rd parties).
-(Optional) Why was the information incorrect in our db (e.g. mistake inherited from 2014 iGurbani db or mistake found in 2008 Sttm2 db).
+Singh, Manmohan. Sri Guru Granth Sahib (English & Punjabi Translation). Vol 1-8, 6th & 8th ed., SGPC, Amritsar, 2006-2009. www.archive.org/details/SriGuruGranthSahibEnglishAndPunjabiTranslation-Vol.1. Accessed 24 May 2020.
 ```
 
-We also have the [Shabad OS Database viewer](https://database.shabados.com), which can be used to view the database and autofill issues! 
+### Sri Dasam Granth
 
-## Folder structure
+ਜਾਪੁ ਸਾਹਿਬ, ਤ੍ਵ ਪ੍ਰਸਾਦਿ ਸਵਯੇ (ਸ੍ਰਾਵਗ ਸੁਧ), ਕਬਿਯੋਬਾਚ ਬੇਨਤੀ ਚੌਪਈ, ਤ੍ਵ ਪ੍ਰਸਾਦਿ ਸ੍ਵਯੇ (ਦੀਨਨ ਕੀ), ਚਉਬੀਸ ਅਵਤਾਰ (Ending Savaiya and Dohira), ਵਾਰ ਸ੍ਰੀ ਭਗਉਤੀ ਜੀ ਕੀ (First Pauri):
 
-The `data` folder is the source of truth for any builds.
+```shell
+Nitnem Te Hor Baniaa(n). SGPC, Sri Amritsar, May 2017, www.drive.google.com/open?id=1AyQLCQgrNznDxI9Vby3knE4Piyrdsnxs. Accessed 22 Jan 2019.
+```
 
-* *Source folders* - `.json` files contain the id, gurmukhi, pronunciation, and translations of each line of parent folder's source
-* *`.json` files* - these files range from compiling banis, separating sections and sub-sections, to naming languages, translations, and writers
+ਸ਼ਬਦ ਹਜ਼ਾਰੇ ਪਾਤਿਸ਼ਾਹੀ ੧੦, ਅਕਾਲ ਉਸਤਤ, ਬਚਿਤ੍ਰ ਨਾਟਕ, ਚੰਡੀ ਚਰਿਤ੍ਰ ਉਕਤਿ ਬਿਲਾਸ, ਚੰਡੀ ਚਰਿਤ੍ਰ, ਵਾਰ ਸ੍ਰੀ ਭਗਉਤੀ ਜੀ ਕੀ, ਗਿਆਨ ਪ੍ਰਬੋਧ:
 
-# Releases
+```shell
+Das Granthi. SGPC, Sri Amritsar, Jul 2014.
 
-The builds for any of branches can be found on [CircleCI](https://circleci.com/gh/ShabadOS).
+Das Granthi. SGPC, Sri Amritsar, Mar 2006, www.sikhbookclub.com/Book/Das-Granthi. Accessed 22 Jan 2019.
+```
 
-If `#Major`, `#Minor`, `#Patch` are found in the latest commit messages, database assets will be compiled and released per semantic versioning.
+Zafarnama:
 
-Compiled databases are available via the release page, or via `npm install @shabados/database`.
+```shell
+Padam, Piara S. Zafarnama. 6th ed., Singh Brothers, Amritsar, Sep 2013, www.archive.org/details/ZafarnamaTePanjHorNamae. Accessed 22 Jan 2019.
+```
 
-# Benchmarks
+Rest:
 
-Run benchmarks with `npm run benchmark` or `docker-compose up benchmark`. Benchmarks depend on specs, but the following shows that between 0-200 results can be returned in a reasonable amount of time.
+```shell
+Dasam Sri Guru Granth Sahib Ji. Vol. 1-2, Baba Teja Singh Ji Nihung Singh Mehron Wale, Moga Punjab, 2011.
 
-Query | Results | Time
------ | ------- | ----
-ਹਹ | 2748 | ~80ms
-ਹਹਹ | 226 | ~50ms
-ਹਹਹਹ | 50 | ~50ms
-ਹਹਹਹਹ | 13 | ~50ms
+Ramgarhia, Eshar S. Dasam Sri Guru Granth Sahib Ji Shiromani Steek. 1st ed., Vol. 1-6, Baba Teja Singh Ji Nihung Singh Mehron Wale, Moga Punjab, Vaisakhi 1999, www.archive.org/details/DasamSriGuruGranthSahibJiShiromaniSteek1. Accessed 22 Jan 2019.
+```
 
-# Viewers
+Arth / Translation:
 
-You can use an application like [DBeaver](https://dbeaver.jkiss.org/) to view the SQLite file.
+```shell
+Jaggi, Ratan S. Sri Dasam Granth. Gobind Sadan, New Delhi, www.gobindsadan.org/download/148/siri-dasam-granth/1363/dasam-granth-complete.pdf. Created 15 Sep 2007. Uploaded 02 Nov 2017. Accessed 22 Jan 2019.
+```
 
-# Licenses
+### Bhai Gurdaas Ji
 
-Gurbani was written during a time and place without formal copyright laws. Therefore we identify it as being free of known restrictions. Instead we consider the Gurbani under the `data` folder and generated under the `build` folder, including the `gurmukhi` JSON and SQLite fields, to be in the [Public Domain](https://creativecommons.org/publicdomain/mark/1.0/) as a work of factual compilation with originality. Therefore any derogatory treatments, such as adding to, deleting from, altering or adapting the work in such a way that it amounts to a distortion or mutilation of the work, or is otherwise prejudicial to the honor or reputation of the work, are not allowed. The typographical corrections the Shabad OS team has made to the Gurbani honors the originality of Gurbani to the best of our knowledge.
+```shell
+Ashok, Shamsher S, and Chakar, Amar S. Varan Giaan Ratnaavli Bhai Gurdaas Ji. SGPC, Sri Amritsar, Nov 2011, www.vidhia.com/Bhai%20Gurdaas%20Ji/Vaaran%20Bhai%20Gurdaas%20Ji%20-%20SGPC.pdf. Accessed 22 Jan 2019.
 
-Supporting text under the `data` folder and generated under the `build` folder, are subject to their respective source copyrights, some by other authors. Translations, transliterations, notes, compilations, or other items which are not Gurbani and which are created or uniquely organized by the Shabad OS team are subject to the [Creative Commons Attribution-ShareAlike 4.0 International License](http://creativecommons.org/licenses/by-sa/4.0/).
+Amrit Keertan. 40th ed., Khalsa Brothers, Amritsar, Jul 2011, www.archive.org/details/AmritKirtan_226. Accessed 22 Jan 2019.
 
-All code and content resting outside of the `data` and `build` folders is licensed under the [GNU General Public License v3](https://www.gnu.org/licenses/gpl.html).
+Singh, Sewa. Kabit Sawaiye Bhai Gurdas Ji Steek. 7th ed., Singh Brothers, Amritsar, Dec 2011, www.archive.org/details/KabitSavaiyeBhaiGurdasJiSteek. Accessed 22 Jan 2019.
+```
+
+Teeka / Translation:
+
+```shell
+Singh, Vir. Varan Bhai Gurdas Steek. 22nd ed., New Delhi, Jul 2012, www.archive.org/details/VaraanBhaiGurdasSteek-BhaiVirSingh. Accessed 18 May 2020.
+
+Singh, Jodh. Vārān Bhāī Gurdās (Text, Transliteration, and Translation). Vol. 1-2, 2nd ed., B. Chattar Singh Jiwan Singh, Amritsar, 2013, www.archive.org/details/VaraanBhaiGurdasTextTransliterationAndTranslation-Vol1. Accessed 18 May 2020.
+```
+
+### Bhai Nand Laal Ji
+
+Ghazals, Zindagi Nama, Ganj Nama, Jot Bigas (Punjabi & Farsi), Rehit Nama, Tankah Nama, Dasturul-Insa, Arjul-Alfaz, Tausifo-Sana, Khatima and their Punjabi Translations:
+
+```shell
+Singh, Ganda. Bhai Nand Lal Granthavali. 4th ed., Punjabi University, Patiala, 2009, www.archive.org/details/BhaiNandLalGranthavali. Accessed 22 Jan 2019.
+```
+
+English Translations:
+
+```shell
+Kalaam-e-Goya. Translated by Pritpal S Bindra, Institute of Sikh Studies, Chandigarh, 2003
+```
+
+## Acknowledgments
+
+**NOTE**: If we have missed any attribution, credits, or copyrights, please [let us know][new-issue-url] or fork this repo and submit a [pull request](CONTRIBUTING.md).
+
+Though unmentioned in the bibliography of sources above, the following are acknowledged for their work in pioneering the digitization process of gurbani, translations, and pronunciations:
+
+- Dr. Kulbir S Thind
+- SHARE Charity UK
+
+[npm-image]: https://img.shields.io/npm/v/@shabados/database.svg
+[npm-url]: https://npmjs.org/package/@shabados/database
+[downloads-image]: https://img.shields.io/npm/dm/@shabados/database.svg
+[downloads-url]: https://npmcharts.com/compare/@shabados/database?minimal=true
+[release-image]: https://img.shields.io/circleci/build/github/shabados/database/master.svg?label=release
+[release-url]: https://app.circleci.com/pipelines/github/shabados/database?branch=master
+[next-image]: https://img.shields.io/circleci/build/github/shabados/database/dev.svg?label=next%20release
+[next-url]: https://app.circleci.com/pipelines/github/shabados/database?branch=dev
+[website-url]: https://shabados.com
+[instagram-image]: https://img.shields.io/badge/Instagram-%40shabad__os-C13584.svg?logo=instagram&logoColor=white
+[instagram-url]: https://www.instagram.com/shabad_os/
+[twitter-image]: https://img.shields.io/badge/Twitter-%40shabad__os-1DA1F2.svg?logo=twitter&logoColor=white
+[twitter-url]: https://www.twitter.com/shabad_os/
+[chat-image]: https://img.shields.io/badge/Chat-Public%20Slack%20Channels-1264a3.svg?logo=slack
+[chat-url]: https://chat.shabados.com
+[new-issue-url]: https://github.com/shabados/database/issues/new/choose
+[contributor-url]: https://github.com/shabados/database/graphs/contributors
+[upvote-tracker-url]: https://github.com/shabados/database/issues?q=is%3Aopen+is%3Aissue+label%3A%22Type%3A+Feature%2FEnhancement%22+sort%3Areactions-%2B1-desc
+[contributor-covenant-url]: https://www.contributor-covenant.org/version/2/0/code_of_conduct/

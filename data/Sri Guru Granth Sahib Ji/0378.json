@@ -1,5 +1,542 @@
 [
   {
+    "id": "A47",
+    "sttm_id": 1464,
+    "writer": "Guru Arjan Dev Ji",
+    "section": "Raag Aasaa",
+    "subsection": null,
+    "lines": [
+      {
+        "id": "QU5J",
+        "source_page": 378,
+        "source_line": 1,
+        "pronunciation": "",
+        "pronunciation_information": "",
+        "type": "Sirlekh",
+        "gurmukhi": {
+          "SGPC": "Awsw mhlw 5 dupdy ]"
+        },
+        "translations": {
+          "English": {
+            "Dr. Sant Singh Khalsa": {
+              "translation": "Aasaa, Fifth Mehl, Du-Padas:",
+              "additional_information": {}
+            },
+            "Bhai Manmohan Singh": {
+              "translation": "Asa 5th Guru. Dupade.",
+              "additional_information": {}
+            }
+          },
+          "Punjabi": {
+            "Bhai Manmohan Singh": {
+              "translation": "ਆਸਾ ਪੰਜਵੀਂ ਪਾਤਸ਼ਾਹੀ। ਦੁਪਦੇ।",
+              "additional_information": {}
+            },
+            "Fareedkot Teeka": {
+              "translation": "",
+              "additional_information": {
+                "reference": ""
+              }
+            },
+            "Prof. Sahib Singh": {
+              "translation": "",
+              "additional_information": {
+                "arth": "",
+                "note": ""
+              }
+            }
+          },
+          "Spanish": {
+            "SikhNet": {
+              "translation": "Asa, Mejl Guru Aryan, Quinto Canal Divino, Du-Padas.",
+              "additional_information": {}
+            }
+          }
+        }
+      },
+      {
+        "id": "AZZJ",
+        "source_page": 378,
+        "source_line": 1,
+        "pronunciation": "",
+        "pronunciation_information": "",
+        "type": "Pankti",
+        "gurmukhi": {
+          "SGPC": "BeI prwpiq; mwnuK dyhurIAw ]"
+        },
+        "translations": {
+          "English": {
+            "Dr. Sant Singh Khalsa": {
+              "translation": "You have been blessed with this human body.",
+              "additional_information": {}
+            },
+            "Bhai Manmohan Singh": {
+              "translation": "This human body has come to thy hand.",
+              "additional_information": {}
+            }
+          },
+          "Punjabi": {
+            "Bhai Manmohan Singh": {
+              "translation": "ਇਹ ਮਨੁੱਖੀ ਦੇਹਿ ਤੇਰੇ ਹੱਥ ਲੱਗੀ ਹੈ।",
+              "additional_information": {}
+            },
+            "Fareedkot Teeka": {
+              "translation": "ਹੇ ਭਾਈ! ਤੇਰੇ ਕੋ ਮਾਨੁਖ ਦੇਹ ਪ੍ਰਾਪਤਿ ਹੂਈ ਹੈ॥",
+              "additional_information": {
+                "reference": ""
+              }
+            },
+            "Prof. Sahib Singh": {
+              "translation": "ਹੇ ਭਾਈ! ਤੈਨੂੰ ਮਨੁੱਖਾ ਜਨਮ ਦੇ ਸੋਹਣੇ ਸਰੀਰ ਦੀ ਪ੍ਰਾਪਤੀ ਹੋਈ ਹੈ,",
+              "additional_information": {
+                "arth": "ਦੇਹੁਰੀਆ = ਸੋਹਣੀ ਦੇਹੀ। ਮਾਨੁਖ ਦੇਹੁਰੀਆ = ਮਨੁੱਖਾ ਜਨਮ ਦੀ ਸੋਹਣੀ ਦੇਹੀ।",
+                "note": ""
+              }
+            }
+          },
+          "Spanish": {
+            "SikhNet": {
+              "translation": "Has obtenido de tu Dios la forma humana,",
+              "additional_information": {}
+            }
+          }
+        }
+      },
+      {
+        "id": "J14Y",
+        "source_page": 378,
+        "source_line": 1,
+        "pronunciation": "",
+        "pronunciation_information": "",
+        "type": "Pankti",
+        "gurmukhi": {
+          "SGPC": "goibMd imlx kI; ieh qyrI brIAw ]"
+        },
+        "translations": {
+          "English": {
+            "Dr. Sant Singh Khalsa": {
+              "translation": "This is your chance to meet the Lord of the Universe.",
+              "additional_information": {}
+            },
+            "Bhai Manmohan Singh": {
+              "translation": "This is thy chance to meet the Lord of the world.",
+              "additional_information": {}
+            }
+          },
+          "Punjabi": {
+            "Bhai Manmohan Singh": {
+              "translation": "ਸ੍ਰਿਸ਼ਟੀ ਦੇ ਸੁਆਮੀ ਨੂੰ ਮਿਲਣ ਦਾ ਏਹੀ ਤੇਰਾ ਮੌਕਾ ਹੈ।",
+              "additional_information": {}
+            },
+            "Fareedkot Teeka": {
+              "translation": "ਗੋਬਿੰਦ ਜੀ ਕੋ ਮਿਲਣੇ ਕੀ ਤੇਰੀ ਏਹੀ ਬਾਰੀ ਹੈ॥",
+              "additional_information": {
+                "reference": ""
+              }
+            },
+            "Prof. Sahib Singh": {
+              "translation": "ਇਹੀ ਹੈ ਸਮਾ ਪਰਮਾਤਮਾ ਨੂੰ ਮਿਲਣ ਦਾ।",
+              "additional_information": {
+                "arth": "ਬਰੀਆ = ਵਾਰੀ।",
+                "note": ""
+              }
+            }
+          },
+          "Spanish": {
+            "SikhNet": {
+              "translation": "ahora es el momento de obtener al Señor.",
+              "additional_information": {}
+            }
+          }
+        }
+      },
+      {
+        "id": "3HYL",
+        "source_page": 378,
+        "source_line": 2,
+        "pronunciation": "",
+        "pronunciation_information": "",
+        "type": "Pankti",
+        "gurmukhi": {
+          "SGPC": "Avir kwj; qyrY ikqY n kwm ]"
+        },
+        "translations": {
+          "English": {
+            "Dr. Sant Singh Khalsa": {
+              "translation": "Other efforts are of no use to you.",
+              "additional_information": {}
+            },
+            "Bhai Manmohan Singh": {
+              "translation": "Other affairs are of no avail to thee.",
+              "additional_information": {}
+            }
+          },
+          "Punjabi": {
+            "Bhai Manmohan Singh": {
+              "translation": "ਹੋਰ ਕਾਰਜ ਤੇਰੇ ਕਿਸੇ ਕੰਮ ਨਹੀਂ ਆਉਂਦੇ।",
+              "additional_information": {}
+            },
+            "Fareedkot Teeka": {
+              "translation": "ਔਰ ਸੰਸਾਰ ਕੇ ਕਾਰਜ ਤੇਰੇ ਕਿਸੇ ਕੰਮ ਨਹੀਂ ਆਵਣੇ॥",
+              "additional_information": {
+                "reference": ""
+              }
+            },
+            "Prof. Sahib Singh": {
+              "translation": "ਤੇਰੇ ਹੋਰ ਹੋਰ ਕੰਮ (ਪਰਮਾਤਮਾ ਨੂੰ ਮਿਲਣ ਦੇ ਰਸਤੇ ਵਿਚ) ਤੇਰੇ ਕਿਸੇ ਕੰਮ ਨਹੀਂ ਆਉਣਗੇ।",
+              "additional_information": {
+                "arth": "ਅਵਰਿ = {ਲਫ਼ਜ਼ 'ਅਵਰ' ਤੋਂ ਬਹੁ-ਵਚਨ} ਹੋਰ ਹੋਰ।",
+                "note": ""
+              }
+            }
+          },
+          "Spanish": {
+            "SikhNet": {
+              "translation": "De nada te sirven otras formas de vida;",
+              "additional_information": {}
+            }
+          }
+        }
+      },
+      {
+        "id": "QCD0",
+        "source_page": 378,
+        "source_line": 2,
+        "pronunciation": "",
+        "pronunciation_information": "",
+        "type": "Pankti",
+        "gurmukhi": {
+          "SGPC": "imlu swDsMgiq; Bju kyvl nwm ]1]"
+        },
+        "translations": {
+          "English": {
+            "Dr. Sant Singh Khalsa": {
+              "translation": "Joining the Saadh Sangat, the Company of the Holy, vibrate and meditate on the Naam, the Name of the Lord. ||1||",
+              "additional_information": {}
+            },
+            "Bhai Manmohan Singh": {
+              "translation": "Joining the society of saints, contemplate over the name alone.",
+              "additional_information": {}
+            }
+          },
+          "Punjabi": {
+            "Bhai Manmohan Singh": {
+              "translation": "ਸਤਿ ਸੰਗਤ ਅੰਦਰ ਜੁੜ ਕੇ ਸਿਰਫ ਨਾਮ ਦਾ ਸਿਮਰਨ ਕਰ।",
+              "additional_information": {}
+            },
+            "Fareedkot Teeka": {
+              "translation": "ਤਾਂ ਤੇ ਸਾਧ ਸੰਗਤਿ ਮੇਂ ਮਿਲ ਕਰ ਏਕ ਸੁਧ ਨਾਮ ਕੋ ਜਪੁ॥੧॥",
+              "additional_information": {
+                "reference": ""
+              }
+            },
+            "Prof. Sahib Singh": {
+              "translation": "(ਇਸ ਵਾਸਤੇ) ਸਾਧ ਸੰਗਤਿ ਵਿਚ (ਭੀ) ਬੈਠਿਆ ਕਰ (ਤੇ ਉਥੇ) ਸਿਰਫ਼ ਪਰਮਾਤਮਾ ਦੇ ਨਾਮ ਦਾ ਭਜਨ ਕਰਿਆ ਕਰ ॥੧॥",
+              "additional_information": {
+                "arth": "",
+                "note": ""
+              }
+            }
+          },
+          "Spanish": {
+            "SikhNet": {
+              "translation": "únete a la Sociedad de los Santos y no recites nada más que el Naam, el Nombre del Señor. (1)",
+              "additional_information": {}
+            }
+          }
+        }
+      },
+      {
+        "id": "KBKE",
+        "source_page": 378,
+        "source_line": 2,
+        "pronunciation": "",
+        "pronunciation_information": "",
+        "type": "Rahao",
+        "gurmukhi": {
+          "SGPC": "srMjwim lwgu; Bvjl qrn kY ]"
+        },
+        "translations": {
+          "English": {
+            "Dr. Sant Singh Khalsa": {
+              "translation": "Make the effort, and cross over the terrifying world ocean.",
+              "additional_information": {}
+            },
+            "Bhai Manmohan Singh": {
+              "translation": "Make effort for crossing the terrible world ocean.",
+              "additional_information": {}
+            }
+          },
+          "Punjabi": {
+            "Bhai Manmohan Singh": {
+              "translation": "ਭਿਆਨਕ ਸੰਸਾਰ ਸਮੁੰਦਰ ਤੋਂ ਪਾਰ ਉਤਰਨ ਲਈ ਆਹਰ ਕਰ।",
+              "additional_information": {}
+            },
+            "Fareedkot Teeka": {
+              "translation": "ਹੇ ਭਾਈ! ਸੰਸਾਰ ਸਮੁੰਦ੍ਰ ਸੇ ਤਰਨ ਕੇ ਉੱਦਮ ਮੇਂ ਲਾਗੁ॥",
+              "additional_information": {
+                "reference": ""
+              }
+            },
+            "Prof. Sahib Singh": {
+              "translation": "(ਹੇ ਭਾਈ!) ਸੰਸਾਰ-ਸਮੁੰਦਰ ਵਿਚੋਂ (ਸਹੀ-ਸਲਾਮਤਿ ਆਤਮਕ ਜੀਵਨ ਲੈ ਕੇ) ਪਾਰ ਲੰਘਣ ਦੇ ਆਹਰ ਵਿਚ (ਭੀ) ਲੱਗ।",
+              "additional_information": {
+                "arth": "ਸਰੰਜਾਮਿ = ਸਰੰਜਾਮ ਵਿਚ, ਆਹਰ ਵਿਚ। ਲਾਗੁ = ਲੱਗ। ਭਵਜਲ = ਸੰਸਾਰ-ਸਮੁੰਦਰ। ਤਰਨ ਕੈ ਸਰੰਜਾਮਿ = ਤਰਨ ਦੇ ਆਹਰ ਵਿਚ।",
+                "note": ""
+              }
+            }
+          },
+          "Spanish": {
+            "SikhNet": {
+              "translation": "Dedícate a nadar a través del mar de la existencia;",
+              "additional_information": {}
+            }
+          }
+        }
+      },
+      {
+        "id": "3GSA",
+        "source_page": 378,
+        "source_line": 3,
+        "pronunciation": "",
+        "pronunciation_information": "",
+        "type": "Rahao",
+        "gurmukhi": {
+          "SGPC": "jnmu ibRQw jwq; rMig mwieAw kY ]1] rhwau ]"
+        },
+        "translations": {
+          "English": {
+            "Dr. Sant Singh Khalsa": {
+              "translation": "This human life is passing away in vain, in the love of Maya. ||1||Pause||",
+              "additional_information": {}
+            },
+            "Bhai Manmohan Singh": {
+              "translation": "In the love of worldliness, the human life is passing away in vain. Pause.",
+              "additional_information": {}
+            }
+          },
+          "Punjabi": {
+            "Bhai Manmohan Singh": {
+              "translation": "ਦੁਨੀਆਂਦਾਰੀ ਦੀ ਮੁਹੱਬਤ ਅੰਦਰ ਮਨੁੱਖੀ ਜੀਵਨ ਵਿਅਰਥ ਬੀਤ ਰਿਹਾ ਹੈ। ਠਹਿਰਾਉ।",
+              "additional_information": {}
+            },
+            "Fareedkot Teeka": {
+              "translation": "ਮਾਯਾ ਕੇ ਅਨੰਦ ਮੇਂ ਜਨਮੁ ਬ੍ਯਰਥ ਜਾਤਾ ਹੈ॥੧॥ ਰਹਾਉ ॥",
+              "additional_information": {
+                "reference": ""
+              }
+            },
+            "Prof. Sahib Singh": {
+              "translation": "ਮਾਇਆ ਦੇ ਮੋਹ ਵਿਚ (ਫਸ ਕੇ) ਤੇਰਾ ਮਨੁੱਖਾ ਜਨਮ ਵਿਅਰਥ ਜਾ ਰਿਹਾ ਹੈ ॥੧॥ ਰਹਾਉ ॥",
+              "additional_information": {
+                "arth": "ਬ੍ਰਿਥਾ ਜਾਤ = ਵਿਅਰਥ ਜਾ ਰਿਹਾ ਹੈ। ਰੰਗਿ = ਰੰਗ ਵਿਚ, ਪਿਆਰ ਵਿਚ, ਮੋਹ ਵਿਚ ॥੧॥ ਰਹਾਉ ॥",
+                "note": ""
+              }
+            }
+          },
+          "Spanish": {
+            "SikhNet": {
+              "translation": "tu vida se desperdicia en la Maya. (1‑Pausa)",
+              "additional_information": {}
+            }
+          }
+        }
+      },
+      {
+        "id": "387Q",
+        "source_page": 378,
+        "source_line": 3,
+        "pronunciation": "",
+        "pronunciation_information": "",
+        "type": "Pankti",
+        "gurmukhi": {
+          "SGPC": "jpu qpu sMjmu Drmu; n kmwieAw ]"
+        },
+        "translations": {
+          "English": {
+            "Dr. Sant Singh Khalsa": {
+              "translation": "I have not practiced meditation, penance, self-restraint or righteous living;",
+              "additional_information": {}
+            },
+            "Bhai Manmohan Singh": {
+              "translation": "I have not practised meditation, arduous toil, self-restraint and faith.",
+              "additional_information": {}
+            }
+          },
+          "Punjabi": {
+            "Bhai Manmohan Singh": {
+              "translation": "ਮੈਂ ਸਿਮਰਨ, ਕਰੜੀ ਘਾਲ, ਸਵੈ-ਰੋਕ ਥਾਮ ਅਤੇ ਈਮਾਨ ਦੀ ਕਮਾਈ ਨਹੀਂ ਕੀਤੀ।",
+              "additional_information": {}
+            },
+            "Fareedkot Teeka": {
+              "translation": "ਅਰ ਐਸੇ ਬੇਨਤੀ ਕਰ: ਹੇ ਭਗਵਨ! ਨਾ ਮੈਨੇ ਕੋਈ ਜਪੁ ਕੀਆ ਹੈ ਔਰ ਨਾ ਤਪ ਕੀਆ ਹੈ ਅਰ ਨਾ ਸੰਜਮ ਔਰ ਨਾ ਧਰਮ ਹੀ ਕਮਾਯਾ ਹੈ॥",
+              "additional_information": {
+                "reference": ""
+              }
+            },
+            "Prof. Sahib Singh": {
+              "translation": "ਹੇ ਪ੍ਰਭੂ ਪਾਤਸ਼ਾਹ! ਮੈਂ ਕੋਈ ਜਪ ਨਹੀਂ ਕੀਤਾ, ਮੈਂ ਕੋਈ ਤਪ ਨਹੀਂ ਕੀਤਾ, ਮੈਂ ਕੋਈ ਸੰਜਮ ਨਹੀਂ ਸਾਧਿਆ; ਮੈਂ ਇਹੋ ਜਿਹਾ ਕੋਈ ਹੋਰ ਧਰਮ ਭੀ ਨਹੀਂ ਕੀਤਾ (ਮੈਨੂੰ ਕਿਸੇ ਜਪ ਤਪ ਸੰਜਮ ਆਦਿਕ ਦਾ ਸਹਾਰਾ-ਮਾਣ ਨਹੀਂ ਹੈ)।",
+              "additional_information": {
+                "arth": "ਸੰਜਮੁ = (ਇੰਦ੍ਰਿਆਂ ਨੂੰ ਵਿਕਾਰਾਂ ਵਲੋਂ ਰੋਕਣ ਦਾ) ਜਤਨ।",
+                "note": ""
+              }
+            }
+          },
+          "Spanish": {
+            "SikhNet": {
+              "translation": "No te has atendido ni te has puesto a meditar,",
+              "additional_information": {}
+            }
+          }
+        }
+      },
+      {
+        "id": "MMVZ",
+        "source_page": 378,
+        "source_line": 4,
+        "pronunciation": "",
+        "pronunciation_information": "",
+        "type": "Pankti",
+        "gurmukhi": {
+          "SGPC": "syvw swD n jwinAw hir rwieAw ]"
+        },
+        "translations": {
+          "English": {
+            "Dr. Sant Singh Khalsa": {
+              "translation": "I have not served the Holy Saints, and I do not know the Lord, my King.",
+              "additional_information": {}
+            },
+            "Bhai Manmohan Singh": {
+              "translation": "I have not served the saints and have not recognised God, the king.",
+              "additional_information": {}
+            }
+          },
+          "Punjabi": {
+            "Bhai Manmohan Singh": {
+              "translation": "ਮੈਂ ਸੰਤ ਦੀ ਟਹਿਲ ਨਹੀਂ ਕਮਾਈ ਅਤੇ ਵਾਹਿਗੁਰੂ ਪਾਤਸ਼ਾਹੀ ਦੀ ਸਿੰਆਣ ਨਹੀਂ ਕੀਤੀ।",
+              "additional_information": {}
+            },
+            "Fareedkot Teeka": {
+              "translation": "ਹੇ ਹਰੀ ਰਾਜਾ! ਨਾ ਤੋ ਸਾਧ ਸੇਵਾ ਕੀਤੀ ਹੈ ਅਰ ਨਾ ਤੇਰੇ ਕੋ ਜਾਨਾ ਹੈ॥",
+              "additional_information": {
+                "reference": ""
+              }
+            },
+            "Prof. Sahib Singh": {
+              "translation": "ਹੇ ਪ੍ਰਭੂ-ਪਾਤਸ਼ਾਹ! ਮੈਂ ਤਾਂ ਤੇਰੇ ਸੰਤ ਜਨਾਂ ਦੀ ਸੇਵਾ ਕਰਨ ਦੀ ਜਾਚ ਭੀ ਨਾਹ ਸਿੱਖੀ।",
+              "additional_information": {
+                "arth": "ਸਾਧ = ਸੰਤ-ਜਨ। ਹਰਿ ਰਾਇਆ = ਹੇ ਪ੍ਰਭੂ ਪਾਤਸ਼ਾਹ!",
+                "note": ""
+              }
+            }
+          },
+          "Spanish": {
+            "SikhNet": {
+              "translation": "ni a servir, ni tienes religión. No sabes qué es el Servicio de los Santos a tu Rey,",
+              "additional_information": {}
+            }
+          }
+        }
+      },
+      {
+        "id": "18KV",
+        "source_page": 378,
+        "source_line": 4,
+        "pronunciation": "",
+        "pronunciation_information": "",
+        "type": "Pankti",
+        "gurmukhi": {
+          "SGPC": "khu nwnk; hm nIc krMmw ]"
+        },
+        "translations": {
+          "English": {
+            "Dr. Sant Singh Khalsa": {
+              "translation": "Says Nanak, my actions are vile and despicable;",
+              "additional_information": {}
+            },
+            "Bhai Manmohan Singh": {
+              "translation": "Says Nanak, mean are mine deeds.",
+              "additional_information": {}
+            }
+          },
+          "Punjabi": {
+            "Bhai Manmohan Singh": {
+              "translation": "ਗੁਰੂ ਜੀ ਆਖਦੇ ਹਨ, ਅਧਮ ਹਨ ਮੇਰੇ ਅਮਲ।",
+              "additional_information": {}
+            },
+            "Fareedkot Teeka": {
+              "translation": "ਸ੍ਰੀ ਗੁਰੂ ਜੀ ਕਹਤੇ ਹੈਂ: ਯਹੀ ਕਹੁ ਕਿ ਹਮ ਜੀਵ ਨੀਚ ਕਰਮੋਂ ਵਾਲੇ ਹੈਂ॥",
+              "additional_information": {
+                "reference": ""
+              }
+            },
+            "Prof. Sahib Singh": {
+              "translation": "ਨਾਨਕ ਆਖਦਾ ਹੈ- ਮੈਂ ਬੜਾ ਮੰਦ-ਕਰਮੀ ਹਾਂ,",
+              "additional_information": {
+                "arth": "ਨਾਨਕ = ਹੇ ਨਾਨਕ! ਨੀਚ ਕਰੰਮਾ = ਮੰਦ-ਕਰਮੀ।",
+                "note": ""
+              }
+            }
+          },
+          "Spanish": {
+            "SikhNet": {
+              "translation": "el Señor Dios. Dice Nanak, estoy lleno de faltas,",
+              "additional_information": {}
+            }
+          }
+        }
+      },
+      {
+        "id": "S6FM",
+        "source_page": 378,
+        "source_line": 4,
+        "pronunciation": "",
+        "pronunciation_information": "",
+        "type": "Pankti",
+        "gurmukhi": {
+          "SGPC": "srix pry kI; rwKhu srmw ]2]29]"
+        },
+        "translations": {
+          "English": {
+            "Dr. Sant Singh Khalsa": {
+              "translation": "O Lord, I seek Your Sanctuary - please, preserve my honor. ||2||29||",
+              "additional_information": {}
+            },
+            "Bhai Manmohan Singh": {
+              "translation": "Preserve thou the honour of Thine shelter seeker, O my master.",
+              "additional_information": {}
+            }
+          },
+          "Punjabi": {
+            "Bhai Manmohan Singh": {
+              "translation": "ਆਪਣੀ ਪਨਾਹ ਲੈਣ ਵਾਲੇ ਦੀ ਲੱਜਿਆ ਰੱਖ ਹੇ ਮੇਰੇ ਮਾਲਕ!",
+              "additional_information": {}
+            },
+            "Fareedkot Teeka": {
+              "translation": "ਮੇਰੀ ਸਰਣ ਪੜੇ ਹੂਏ ਕੀ ਲੱਜਿਆ ਰਖੋ॥੨॥੨੯॥☬ਸਨਮੁਖ ਬੇਨਤੀ:",
+              "additional_information": {
+                "reference": ""
+              }
+            },
+            "Prof. Sahib Singh": {
+              "translation": "(ਪਰ ਮੈਂ ਤੇਰੀ ਸਰਨ ਆ ਪਿਆ ਹਾਂ) ਸਰਨ ਪਏ ਦੀ ਮੇਰੀ ਲਾਜ ਰੱਖੀਂ ॥੨॥੨੯॥",
+              "additional_information": {
+                "arth": "ਸਰਮਾ = ਸ਼ਰਮ, ਲਾਜ ॥੨॥੨੯॥",
+                "note": "* ਨੋਟ: ਨੰਬਰ ੨੯ ਤੋਂ ਦੋ ਬੰਦਾਂ ਵਾਲੇ ਸ਼ਬਦ ਸ਼ੁਰੂ ਹੋਏ ਹਨ ਜੋ ਨੰਬਰ ੩੪ ਤਕ ਗਿਣਤੀ ਵਿਚ ੬ ਹਨ।"
+              }
+            }
+          },
+          "Spanish": {
+            "SikhNet": {
+              "translation": "pero me postro ante Ti, oh Señor, y así cubro mi vergüenza. (2‑29)",
+              "additional_information": {}
+            }
+          }
+        }
+      }
+    ]
+  },
+  {
     "id": "6ZU",
     "sttm_id": 1465,
     "writer": "Guru Arjan Dev Ji",
@@ -9,11 +546,13 @@
       {
         "id": "31RS",
         "source_page": 378,
-        "source_line": 4,
-        "gurmukhi": "Awsw mhlw 5 ]",
+        "source_line": 5,
         "pronunciation": "",
         "pronunciation_information": "",
-        "type": null,
+        "type": "Sirlekh",
+        "gurmukhi": {
+          "SGPC": "Awsw mhlw 5 ]"
+        },
         "translations": {
           "English": {
             "Dr. Sant Singh Khalsa": {
@@ -56,10 +595,12 @@
         "id": "M15Z",
         "source_page": 378,
         "source_line": 5,
-        "gurmukhi": "quJ ibnu. Avru nwhI mY dUjw; qUM myry mn mwhI ]",
         "pronunciation": "",
         "pronunciation_information": "",
-        "type": null,
+        "type": "Pankti",
+        "gurmukhi": {
+          "SGPC": "quJ ibnu. Avru nwhI mY dUjw; qUM myry mn mwhI ]"
+        },
         "translations": {
           "English": {
             "Dr. Sant Singh Khalsa": {
@@ -102,10 +643,12 @@
         "id": "NGRG",
         "source_page": 378,
         "source_line": 5,
-        "gurmukhi": "qUM swjnu sMgI pRBu myrw; kwhy jIA frwhI ]1]",
         "pronunciation": "",
         "pronunciation_information": "",
-        "type": null,
+        "type": "Pankti",
+        "gurmukhi": {
+          "SGPC": "qUM swjnu sMgI pRBu myrw; kwhy jIA frwhI ]1]"
+        },
         "translations": {
           "English": {
             "Dr. Sant Singh Khalsa": {
@@ -147,11 +690,13 @@
       {
         "id": "2JFH",
         "source_page": 378,
-        "source_line": 5,
-        "gurmukhi": "qumrI Et qumwrI Awsw ]",
+        "source_line": 6,
         "pronunciation": "",
         "pronunciation_information": "",
-        "type": null,
+        "type": "Rahao",
+        "gurmukhi": {
+          "SGPC": "qumrI Et qumwrI Awsw ]"
+        },
         "translations": {
           "English": {
             "Dr. Sant Singh Khalsa": {
@@ -194,10 +739,12 @@
         "id": "JJYQ",
         "source_page": 378,
         "source_line": 6,
-        "gurmukhi": "bYTq aUTq sovq jwgq; ivsru nwhI qUM. sws igrwsw ]1] rhwau ]",
         "pronunciation": "",
         "pronunciation_information": "",
-        "type": null,
+        "type": "Rahao",
+        "gurmukhi": {
+          "SGPC": "bYTq aUTq sovq jwgq; ivsru nwhI qUM. sws igrwsw ]1] rhwau ]"
+        },
         "translations": {
           "English": {
             "Dr. Sant Singh Khalsa": {
@@ -239,11 +786,13 @@
       {
         "id": "G011",
         "source_page": 378,
-        "source_line": 6,
-        "gurmukhi": "rwKu rwKu. srix pRB ApnI; Agin swgr ivkrwlw ]",
+        "source_line": 7,
         "pronunciation": "",
         "pronunciation_information": "",
-        "type": null,
+        "type": "Pankti",
+        "gurmukhi": {
+          "SGPC": "rwKu rwKu. srix pRB ApnI; Agin swgr ivkrwlw ]"
+        },
         "translations": {
           "English": {
             "Dr. Sant Singh Khalsa": {
@@ -286,10 +835,12 @@
         "id": "MYGT",
         "source_page": 378,
         "source_line": 7,
-        "gurmukhi": "nwnk. ky suKdwqy siqgur; hm qumry bwl gupwlw ]2]30]",
         "pronunciation": "",
         "pronunciation_information": "",
-        "type": null,
+        "type": "Pankti",
+        "gurmukhi": {
+          "SGPC": "nwnk. ky suKdwqy siqgur; hm qumry bwl gupwlw ]2]30]"
+        },
         "translations": {
           "English": {
             "Dr. Sant Singh Khalsa": {
@@ -340,11 +891,13 @@
       {
         "id": "8LJE",
         "source_page": 378,
-        "source_line": 7,
-        "gurmukhi": "Awsw mhlw 5 ]",
+        "source_line": 8,
         "pronunciation": "",
         "pronunciation_information": "",
-        "type": null,
+        "type": "Sirlekh",
+        "gurmukhi": {
+          "SGPC": "Awsw mhlw 5 ]"
+        },
         "translations": {
           "English": {
             "Dr. Sant Singh Khalsa": {
@@ -387,10 +940,12 @@
         "id": "HZRX",
         "source_page": 378,
         "source_line": 8,
-        "gurmukhi": "hir jn; lIny pRBU Cfwie ]",
         "pronunciation": "",
         "pronunciation_information": "",
-        "type": null,
+        "type": "Rahao",
+        "gurmukhi": {
+          "SGPC": "hir jn; lIny pRBU Cfwie ]"
+        },
         "translations": {
           "English": {
             "Dr. Sant Singh Khalsa": {
@@ -432,11 +987,13 @@
       {
         "id": "3WQX",
         "source_page": 378,
-        "source_line": 8,
-        "gurmukhi": "pRIqm isau. myro mnu mwinAw; qwpu muAw. ibKu Kwie ]1] rhwau ]",
+        "source_line": 9,
         "pronunciation": "",
         "pronunciation_information": "",
-        "type": null,
+        "type": "Rahao",
+        "gurmukhi": {
+          "SGPC": "pRIqm isau. myro mnu mwinAw; qwpu muAw. ibKu Kwie ]1] rhwau ]"
+        },
         "translations": {
           "English": {
             "Dr. Sant Singh Khalsa": {
@@ -479,10 +1036,12 @@
         "id": "WTN0",
         "source_page": 378,
         "source_line": 9,
-        "gurmukhi": "pwlw qwaU. kCU n ibAwpY; rwm nwm gun gwie ]",
         "pronunciation": "",
         "pronunciation_information": "",
-        "type": null,
+        "type": "Pankti",
+        "gurmukhi": {
+          "SGPC": "pwlw qwaU. kCU n ibAwpY; rwm nwm gun gwie ]"
+        },
         "translations": {
           "English": {
             "Dr. Sant Singh Khalsa": {
@@ -524,11 +1083,13 @@
       {
         "id": "6V0S",
         "source_page": 378,
-        "source_line": 9,
-        "gurmukhi": "fwkI ko iciq. kCU n lwgY; crn kml srnwie ]1]",
+        "source_line": 10,
         "pronunciation": "",
         "pronunciation_information": "",
-        "type": null,
+        "type": "Pankti",
+        "gurmukhi": {
+          "SGPC": "fwkI ko iciq. kCU n lwgY; crn kml srnwie ]1]"
+        },
         "translations": {
           "English": {
             "Dr. Sant Singh Khalsa": {
@@ -571,10 +1132,12 @@
         "id": "TMBW",
         "source_page": 378,
         "source_line": 10,
-        "gurmukhi": "sMq pRswid Bey ikrpwlw; hoey Awip shwie ]",
         "pronunciation": "",
         "pronunciation_information": "",
-        "type": null,
+        "type": "Pankti",
+        "gurmukhi": {
+          "SGPC": "sMq pRswid Bey ikrpwlw; hoey Awip shwie ]"
+        },
         "translations": {
           "English": {
             "Dr. Sant Singh Khalsa": {
@@ -616,11 +1179,13 @@
       {
         "id": "TYK2",
         "source_page": 378,
-        "source_line": 10,
-        "gurmukhi": "gun inDwn iniq gwvY nwnku; shsw duKu imtwie ]2]31]",
+        "source_line": 11,
         "pronunciation": "",
         "pronunciation_information": "",
-        "type": null,
+        "type": "Pankti",
+        "gurmukhi": {
+          "SGPC": "gun inDwn iniq gwvY nwnku; shsw duKu imtwie ]2]31]"
+        },
         "translations": {
           "English": {
             "Dr. Sant Singh Khalsa": {
@@ -671,11 +1236,13 @@
       {
         "id": "J1F0",
         "source_page": 378,
-        "source_line": 11,
-        "gurmukhi": "Awsw mhlw 5 ]",
+        "source_line": 12,
         "pronunciation": "",
         "pronunciation_information": "",
-        "type": null,
+        "type": "Sirlekh",
+        "gurmukhi": {
+          "SGPC": "Awsw mhlw 5 ]"
+        },
         "translations": {
           "English": {
             "Dr. Sant Singh Khalsa": {
@@ -718,10 +1285,12 @@
         "id": "SFP5",
         "source_page": 378,
         "source_line": 12,
-        "gurmukhi": "AauKDu KwieE; hir ko nwau ]",
         "pronunciation": "",
         "pronunciation_information": "",
-        "type": null,
+        "type": "Pankti",
+        "gurmukhi": {
+          "SGPC": "AauKDu KwieE; hir ko nwau ]"
+        },
         "translations": {
           "English": {
             "Dr. Sant Singh Khalsa": {
@@ -764,10 +1333,12 @@
         "id": "D5YQ",
         "source_page": 378,
         "source_line": 12,
-        "gurmukhi": "suK pwey; duK ibnisAw Qwau ]1]",
         "pronunciation": "",
         "pronunciation_information": "",
-        "type": null,
+        "type": "Pankti",
+        "gurmukhi": {
+          "SGPC": "suK pwey; duK ibnisAw Qwau ]1]"
+        },
         "translations": {
           "English": {
             "Dr. Sant Singh Khalsa": {
@@ -810,10 +1381,12 @@
         "id": "LVB7",
         "source_page": 378,
         "source_line": 12,
-        "gurmukhi": "qwpu gieAw; bcin gur pUry ]",
         "pronunciation": "",
         "pronunciation_information": "",
-        "type": null,
+        "type": "Rahao",
+        "gurmukhi": {
+          "SGPC": "qwpu gieAw; bcin gur pUry ]"
+        },
         "translations": {
           "English": {
             "Dr. Sant Singh Khalsa": {
@@ -855,11 +1428,13 @@
       {
         "id": "Q1X2",
         "source_page": 378,
-        "source_line": 12,
-        "gurmukhi": "Andu BieAw; siB imty ivsUry ]1] rhwau ]",
+        "source_line": 13,
         "pronunciation": "",
         "pronunciation_information": "",
-        "type": null,
+        "type": "Rahao",
+        "gurmukhi": {
+          "SGPC": "Andu BieAw; siB imty ivsUry ]1] rhwau ]"
+        },
         "translations": {
           "English": {
             "Dr. Sant Singh Khalsa": {
@@ -902,10 +1477,12 @@
         "id": "J17R",
         "source_page": 378,
         "source_line": 13,
-        "gurmukhi": "jIA jMq sgl; suKu pwieAw ]",
         "pronunciation": "",
         "pronunciation_information": "",
-        "type": null,
+        "type": "Pankti",
+        "gurmukhi": {
+          "SGPC": "jIA jMq sgl; suKu pwieAw ]"
+        },
         "translations": {
           "English": {
             "Dr. Sant Singh Khalsa": {
@@ -947,11 +1524,13 @@
       {
         "id": "ARNY",
         "source_page": 378,
-        "source_line": 13,
-        "gurmukhi": "pwrbRhmu; nwnk min iDAwieAw ]2]32]",
+        "source_line": 14,
         "pronunciation": "",
         "pronunciation_information": "",
-        "type": null,
+        "type": "Pankti",
+        "gurmukhi": {
+          "SGPC": "pwrbRhmu; nwnk min iDAwieAw ]2]32]"
+        },
         "translations": {
           "English": {
             "Dr. Sant Singh Khalsa": {
@@ -1003,10 +1582,12 @@
         "id": "2HBV",
         "source_page": 378,
         "source_line": 14,
-        "gurmukhi": "Awsw mhlw 5 ]",
         "pronunciation": "",
         "pronunciation_information": "",
-        "type": null,
+        "type": "Sirlekh",
+        "gurmukhi": {
+          "SGPC": "Awsw mhlw 5 ]"
+        },
         "translations": {
           "English": {
             "Dr. Sant Singh Khalsa": {
@@ -1049,10 +1630,12 @@
         "id": "0DY1",
         "source_page": 378,
         "source_line": 14,
-        "gurmukhi": "bWCq nwhI; su bylw AweI ]",
         "pronunciation": "",
         "pronunciation_information": "",
-        "type": null,
+        "type": "Pankti",
+        "gurmukhi": {
+          "SGPC": "bWCq nwhI; su bylw AweI ]"
+        },
         "translations": {
           "English": {
             "Dr. Sant Singh Khalsa": {
@@ -1094,11 +1677,13 @@
       {
         "id": "AR4V",
         "source_page": 378,
-        "source_line": 14,
-        "gurmukhi": "ibnu hukmY; ikau buJY buJweI ]1]",
+        "source_line": 15,
         "pronunciation": "",
         "pronunciation_information": "",
-        "type": null,
+        "type": "Pankti",
+        "gurmukhi": {
+          "SGPC": "ibnu hukmY; ikau buJY buJweI ]1]"
+        },
         "translations": {
           "English": {
             "Dr. Sant Singh Khalsa": {
@@ -1141,10 +1726,12 @@
         "id": "THB8",
         "source_page": 378,
         "source_line": 15,
-        "gurmukhi": "TMFI qwqI imtI KweI ]",
         "pronunciation": "",
         "pronunciation_information": "",
-        "type": null,
+        "type": "Rahao",
+        "gurmukhi": {
+          "SGPC": "TMFI qwqI imtI KweI ]"
+        },
         "translations": {
           "English": {
             "Dr. Sant Singh Khalsa": {
@@ -1187,10 +1774,12 @@
         "id": "929X",
         "source_page": 378,
         "source_line": 15,
-        "gurmukhi": "Ehu; n bwlw bUFw. BweI ]1] rhwau ]",
         "pronunciation": "",
         "pronunciation_information": "",
-        "type": null,
+        "type": "Rahao",
+        "gurmukhi": {
+          "SGPC": "Ehu; n bwlw bUFw. BweI ]1] rhwau ]"
+        },
         "translations": {
           "English": {
             "Dr. Sant Singh Khalsa": {
@@ -1232,11 +1821,13 @@
       {
         "id": "084Y",
         "source_page": 378,
-        "source_line": 15,
-        "gurmukhi": "nwnk dws; swD srxweI ]",
+        "source_line": 16,
         "pronunciation": "",
         "pronunciation_information": "",
-        "type": null,
+        "type": "Pankti",
+        "gurmukhi": {
+          "SGPC": "nwnk dws; swD srxweI ]"
+        },
         "translations": {
           "English": {
             "Dr. Sant Singh Khalsa": {
@@ -1279,10 +1870,12 @@
         "id": "GFA0",
         "source_page": 378,
         "source_line": 16,
-        "gurmukhi": "gurpRswid; Bau pwir prweI ]2]33]",
         "pronunciation": "",
         "pronunciation_information": "",
-        "type": null,
+        "type": "Pankti",
+        "gurmukhi": {
+          "SGPC": "gur pRswid; Bau pwir prweI ]2]33]"
+        },
         "translations": {
           "English": {
             "Dr. Sant Singh Khalsa": {
@@ -1334,10 +1927,12 @@
         "id": "6UM2",
         "source_page": 378,
         "source_line": 16,
-        "gurmukhi": "Awsw mhlw 5 ]",
         "pronunciation": "",
         "pronunciation_information": "",
-        "type": null,
+        "type": "Sirlekh",
+        "gurmukhi": {
+          "SGPC": "Awsw mhlw 5 ]"
+        },
         "translations": {
           "English": {
             "Dr. Sant Singh Khalsa": {
@@ -1380,10 +1975,12 @@
         "id": "Q0YL",
         "source_page": 378,
         "source_line": 16,
-        "gurmukhi": "sdw sdw Awqm prgwsu ]",
         "pronunciation": "",
         "pronunciation_information": "",
-        "type": null,
+        "type": "Pankti",
+        "gurmukhi": {
+          "SGPC": "sdw sdw Awqm prgwsu ]"
+        },
         "translations": {
           "English": {
             "Dr. Sant Singh Khalsa": {
@@ -1425,11 +2022,13 @@
       {
         "id": "8CZC",
         "source_page": 378,
-        "source_line": 16,
-        "gurmukhi": "swDsMgiq; hir crx invwsu ]1]",
+        "source_line": 17,
         "pronunciation": "",
         "pronunciation_information": "",
-        "type": null,
+        "type": "Pankti",
+        "gurmukhi": {
+          "SGPC": "swDsMgiq; hir crx invwsu ]1]"
+        },
         "translations": {
           "English": {
             "Dr. Sant Singh Khalsa": {
@@ -1472,10 +2071,12 @@
         "id": "2WN7",
         "source_page": 378,
         "source_line": 17,
-        "gurmukhi": "rwm nwm; iniq jip mn myry ]",
         "pronunciation": "",
         "pronunciation_information": "",
-        "type": null,
+        "type": "Rahao",
+        "gurmukhi": {
+          "SGPC": "rwm nwm; iniq jip mn myry ]"
+        },
         "translations": {
           "English": {
             "Dr. Sant Singh Khalsa": {
@@ -1518,10 +2119,12 @@
         "id": "BP2M",
         "source_page": 378,
         "source_line": 17,
-        "gurmukhi": "sIql sWiq sdw suK pwvih; iklivK jwih sBy. mn qyry ]1] rhwau ]",
         "pronunciation": "",
         "pronunciation_information": "",
-        "type": null,
+        "type": "Rahao",
+        "gurmukhi": {
+          "SGPC": "sIql sWiq sdw suK pwvih; iklivK jwih sBy. mn qyry ]1] rhwau ]"
+        },
         "translations": {
           "English": {
             "Dr. Sant Singh Khalsa": {
@@ -1563,11 +2166,13 @@
       {
         "id": "VPX6",
         "source_page": 378,
-        "source_line": 17,
-        "gurmukhi": "khu nwnk; jw ky pUrn krm ]",
+        "source_line": 18,
         "pronunciation": "",
         "pronunciation_information": "",
-        "type": null,
+        "type": "Pankti",
+        "gurmukhi": {
+          "SGPC": "khu nwnk; jw ky pUrn krm ]"
+        },
         "translations": {
           "English": {
             "Dr. Sant Singh Khalsa": {
@@ -1610,10 +2215,12 @@
         "id": "L0HH",
         "source_page": 378,
         "source_line": 18,
-        "gurmukhi": "siqgur Byty; pUrn pwrbRhm ]2]34]",
         "pronunciation": "",
         "pronunciation_information": "",
-        "type": null,
+        "type": "Pankti",
+        "gurmukhi": {
+          "SGPC": "siqgur Byty; pUrn pwrbRhm ]2]34]"
+        },
         "translations": {
           "English": {
             "Dr. Sant Singh Khalsa": {
@@ -1656,10 +2263,12 @@
         "id": "K50V",
         "source_page": 378,
         "source_line": 19,
-        "gurmukhi": "dUjy Gr ky cauqIs ]",
         "pronunciation": "",
         "pronunciation_information": "",
-        "type": null,
+        "type": "Pankti",
+        "gurmukhi": {
+          "SGPC": "dUjy Gr ky cauqIs ]"
+        },
         "translations": {
           "English": {
             "Dr. Sant Singh Khalsa": {
@@ -1711,10 +2320,12 @@
         "id": "75YS",
         "source_page": 378,
         "source_line": 19,
-        "gurmukhi": "Awsw mhlw 5 ]",
         "pronunciation": "",
         "pronunciation_information": "",
-        "type": null,
+        "type": "Sirlekh",
+        "gurmukhi": {
+          "SGPC": "Awsw mhlw 5 ]"
+        },
         "translations": {
           "English": {
             "Dr. Sant Singh Khalsa": {
@@ -1757,10 +2368,12 @@
         "id": "M077",
         "source_page": 378,
         "source_line": 19,
-        "gurmukhi": "jw kw; hir suAwmI pRBu bylI ]",
         "pronunciation": "",
         "pronunciation_information": "",
-        "type": null,
+        "type": "Rahao",
+        "gurmukhi": {
+          "SGPC": "jw kw; hir suAwmI pRBu bylI ]"
+        },
         "translations": {
           "English": {
             "Dr. Sant Singh Khalsa": {
@@ -1803,10 +2416,12 @@
         "id": "M1KA",
         "source_page": 379,
         "source_line": 1,
-        "gurmukhi": "pIV geI; iPir. nhI duhylI ]1] rhwau ]",
         "pronunciation": "",
         "pronunciation_information": "",
-        "type": null,
+        "type": "Rahao",
+        "gurmukhi": {
+          "SGPC": "pIV geI; iPir. nhI duhylI ]1] rhwau ]"
+        },
         "translations": {
           "English": {
             "Dr. Sant Singh Khalsa": {
@@ -1849,10 +2464,12 @@
         "id": "TGMT",
         "source_page": 379,
         "source_line": 1,
-        "gurmukhi": "kir ikrpw; crn sMig mylI ]",
         "pronunciation": "",
         "pronunciation_information": "",
-        "type": null,
+        "type": "Pankti",
+        "gurmukhi": {
+          "SGPC": "kir ikrpw; crn sMig mylI ]"
+        },
         "translations": {
           "English": {
             "Dr. Sant Singh Khalsa": {
@@ -1895,10 +2512,12 @@
         "id": "3LP8",
         "source_page": 379,
         "source_line": 1,
-        "gurmukhi": "sUK shj Awnµd suhylI ]1]",
         "pronunciation": "",
         "pronunciation_information": "",
-        "type": null,
+        "type": "Pankti",
+        "gurmukhi": {
+          "SGPC": "sUK shj Awnµd suhylI ]1]"
+        },
         "translations": {
           "English": {
             "Dr. Sant Singh Khalsa": {
@@ -1941,10 +2560,12 @@
         "id": "ZZ7M",
         "source_page": 379,
         "source_line": 2,
-        "gurmukhi": "swDsMig; gux gwie AqolI ]",
         "pronunciation": "",
         "pronunciation_information": "",
-        "type": null,
+        "type": "Pankti",
+        "gurmukhi": {
+          "SGPC": "swDsMig; gux gwie AqolI ]"
+        },
         "translations": {
           "English": {
             "Dr. Sant Singh Khalsa": {
@@ -1987,10 +2608,12 @@
         "id": "J53E",
         "source_page": 379,
         "source_line": 2,
-        "gurmukhi": "hir ismrq nwnk; BeI AmolI ]2]35]",
         "pronunciation": "",
         "pronunciation_information": "",
-        "type": null,
+        "type": "Pankti",
+        "gurmukhi": {
+          "SGPC": "hir ismrq nwnk; BeI AmolI ]2]35]"
+        },
         "translations": {
           "English": {
             "Dr. Sant Singh Khalsa": {

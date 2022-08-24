@@ -2,7 +2,7 @@
   {
     "id": "0FL",
     "sttm_id": 5251,
-    "writer": "Sheikh Fareed Ji",
+    "writer": "Sheikh Farid Ji",
     "section": "Salok Fareed Jee",
     "subsection": null,
     "lines": [
@@ -10,10 +10,12 @@
         "id": "984Z",
         "source_page": 1380,
         "source_line": 1,
-        "gurmukhi": "buFw hoAw syK PrIdu; kMbix lgI dyh ]",
         "pronunciation": "",
         "pronunciation_information": "",
-        "type": null,
+        "type": "Pankti",
+        "gurmukhi": {
+          "SGPC": "buFw hoAw syK PrIdu; kMbix lgI dyh ]"
+        },
         "translations": {
           "English": {
             "Dr. Sant Singh Khalsa": {
@@ -56,10 +58,12 @@
         "id": "65JQ",
         "source_page": 1380,
         "source_line": 1,
-        "gurmukhi": "jy sau vir@Aw jIvxw; BI qnu hosI Kyh ]41]",
         "pronunciation": "",
         "pronunciation_information": "",
-        "type": null,
+        "type": "Pankti",
+        "gurmukhi": {
+          "SGPC": "jy sau vir@Aw jIvxw; BI qnu hosI Kyh ]41]"
+        },
         "translations": {
           "English": {
             "Dr. Sant Singh Khalsa": {
@@ -103,7 +107,7 @@
   {
     "id": "94P",
     "sttm_id": 5252,
-    "writer": "Sheikh Fareed Ji",
+    "writer": "Sheikh Farid Ji",
     "section": "Salok Fareed Jee",
     "subsection": null,
     "lines": [
@@ -111,10 +115,12 @@
         "id": "74TY",
         "source_page": 1380,
         "source_line": 1,
-        "gurmukhi": "PrIdw. bwir prwieAY bYsxw; sWeI muJY. n dyih ]",
         "pronunciation": "",
         "pronunciation_information": "",
-        "type": null,
+        "type": "Pankti",
+        "gurmukhi": {
+          "SGPC": "PrIdw. bwir prwieAY bYsxw; sWeI muJY. n dyih ]"
+        },
         "translations": {
           "English": {
             "Dr. Sant Singh Khalsa": {
@@ -157,10 +163,12 @@
         "id": "GUZM",
         "source_page": 1380,
         "source_line": 2,
-        "gurmukhi": "jy qU eyvY rKsI; jIau srIrhu lyih ]42]",
         "pronunciation": "",
         "pronunciation_information": "",
-        "type": null,
+        "type": "Pankti",
+        "gurmukhi": {
+          "SGPC": "jy qU eyvY rKsI; jIau srIrhu lyih ]42]"
+        },
         "translations": {
           "English": {
             "Dr. Sant Singh Khalsa": {
@@ -204,7 +212,7 @@
   {
     "id": "TS2",
     "sttm_id": 5253,
-    "writer": "Sheikh Fareed Ji",
+    "writer": "Sheikh Farid Ji",
     "section": "Salok Fareed Jee",
     "subsection": null,
     "lines": [
@@ -212,10 +220,12 @@
         "id": "5GSX",
         "source_page": 1380,
         "source_line": 2,
-        "gurmukhi": "kMiD kuhwVw. isir GVw; vix kY sru. lohwru ]",
         "pronunciation": "",
         "pronunciation_information": "",
-        "type": null,
+        "type": "Pankti",
+        "gurmukhi": {
+          "SGPC": "kMiD kuhwVw. isir GVw; vix kY sru. lohwru ]"
+        },
         "translations": {
           "English": {
             "Dr. Sant Singh Khalsa": {
@@ -258,10 +268,12 @@
         "id": "FAS1",
         "source_page": 1380,
         "source_line": 3,
-        "gurmukhi": "PrIdw. hau loVI shu Awpxw; qU loVih AMigAwr ]43]",
         "pronunciation": "",
         "pronunciation_information": "",
-        "type": null,
+        "type": "Pankti",
+        "gurmukhi": {
+          "SGPC": "PrIdw. hau loVI shu Awpxw; qU loVih AMigAwr ]43]"
+        },
         "translations": {
           "English": {
             "Dr. Sant Singh Khalsa": {
@@ -305,7 +317,7 @@
   {
     "id": "VAA",
     "sttm_id": 5254,
-    "writer": "Sheikh Fareed Ji",
+    "writer": "Sheikh Farid Ji",
     "section": "Salok Fareed Jee",
     "subsection": null,
     "lines": [
@@ -313,10 +325,12 @@
         "id": "PFUW",
         "source_page": 1380,
         "source_line": 3,
-        "gurmukhi": "PrIdw. ieknw Awtw Aglw; ieknw. nwhI loxu ]",
         "pronunciation": "",
         "pronunciation_information": "",
-        "type": null,
+        "type": "Pankti",
+        "gurmukhi": {
+          "SGPC": "PrIdw. ieknw Awtw Aglw; ieknw. nwhI loxu ]"
+        },
         "translations": {
           "English": {
             "Dr. Sant Singh Khalsa": {
@@ -359,10 +373,12 @@
         "id": "09J9",
         "source_page": 1380,
         "source_line": 4,
-        "gurmukhi": "AgY gey isM\\wpsin cotW; KwsI kauxu ]44]",
         "pronunciation": "",
         "pronunciation_information": "",
-        "type": null,
+        "type": "Pankti",
+        "gurmukhi": {
+          "SGPC": "AgY gey isM\\wpsin cotW; KwsI kauxu ]44]"
+        },
         "translations": {
           "English": {
             "Dr. Sant Singh Khalsa": {
@@ -406,7 +422,7 @@
   {
     "id": "HY4",
     "sttm_id": 5255,
-    "writer": "Sheikh Fareed Ji",
+    "writer": "Sheikh Farid Ji",
     "section": "Salok Fareed Jee",
     "subsection": null,
     "lines": [
@@ -414,10 +430,12 @@
         "id": "XTJR",
         "source_page": 1380,
         "source_line": 4,
-        "gurmukhi": "pwis dmwmy Cqu isir; ByrI sfo rf ]",
         "pronunciation": "",
         "pronunciation_information": "",
-        "type": null,
+        "type": "Pankti",
+        "gurmukhi": {
+          "SGPC": "pwis dmwmy Cqu isir; ByrI sfo rf ]"
+        },
         "translations": {
           "English": {
             "Dr. Sant Singh Khalsa": {
@@ -460,14 +478,16 @@
         "id": "KW1R",
         "source_page": 1380,
         "source_line": 5,
-        "gurmukhi": "jwie suqy jIrwx mih; QIey AqImw gf ]45]",
         "pronunciation": "",
         "pronunciation_information": "",
-        "type": null,
+        "type": "Pankti",
+        "gurmukhi": {
+          "SGPC": "jwie suqy jIrwx mih; QIey AqImw gf ]45]"
+        },
         "translations": {
           "English": {
             "Dr. Sant Singh Khalsa": {
-              "translation": "They have gone to sleep in the cemetary, buried like poor orphans. ||45||",
+              "translation": "They have gone to sleep in the cemetery, buried like poor orphans. ||45||",
               "additional_information": {}
             },
             "Bhai Manmohan Singh": {
@@ -507,7 +527,7 @@
   {
     "id": "3ZH",
     "sttm_id": 5256,
-    "writer": "Sheikh Fareed Ji",
+    "writer": "Sheikh Farid Ji",
     "section": "Salok Fareed Jee",
     "subsection": null,
     "lines": [
@@ -515,10 +535,12 @@
         "id": "GS2P",
         "source_page": 1380,
         "source_line": 5,
-        "gurmukhi": "PrIdw. koTy mMfp mwVIAw; auswrydy BI gey ]",
         "pronunciation": "",
         "pronunciation_information": "",
-        "type": null,
+        "type": "Pankti",
+        "gurmukhi": {
+          "SGPC": "PrIdw. koTy mMfp mwVIAw; auswrydy BI gey ]"
+        },
         "translations": {
           "English": {
             "Dr. Sant Singh Khalsa": {
@@ -561,10 +583,12 @@
         "id": "KBP3",
         "source_page": 1380,
         "source_line": 6,
-        "gurmukhi": "kUVw saudw kir gey; gorI Awie pey ]46]",
         "pronunciation": "",
         "pronunciation_information": "",
-        "type": null,
+        "type": "Pankti",
+        "gurmukhi": {
+          "SGPC": "kUVw saudw kir gey; gorI Awie pey ]46]"
+        },
         "translations": {
           "English": {
             "Dr. Sant Singh Khalsa": {
@@ -608,7 +632,7 @@
   {
     "id": "PUV",
     "sttm_id": 5257,
-    "writer": "Sheikh Fareed Ji",
+    "writer": "Sheikh Farid Ji",
     "section": "Salok Fareed Jee",
     "subsection": null,
     "lines": [
@@ -616,10 +640,12 @@
         "id": "UA61",
         "source_page": 1380,
         "source_line": 6,
-        "gurmukhi": "PrIdw. iKMQiV myKw AglIAw; ijMdu. n kweI myK ]",
         "pronunciation": "",
         "pronunciation_information": "",
-        "type": null,
+        "type": "Pankti",
+        "gurmukhi": {
+          "SGPC": "PrIdw. iKMQiV myKw AglIAw; ijMdu. n kweI myK ]"
+        },
         "translations": {
           "English": {
             "Dr. Sant Singh Khalsa": {
@@ -662,10 +688,12 @@
         "id": "DLYT",
         "source_page": 1380,
         "source_line": 7,
-        "gurmukhi": "vwrI Awpo AwpxI; cly mswiek syK ]47]",
         "pronunciation": "",
         "pronunciation_information": "",
-        "type": null,
+        "type": "Pankti",
+        "gurmukhi": {
+          "SGPC": "vwrI Awpo AwpxI; cly mswiek syK ]47]"
+        },
         "translations": {
           "English": {
             "Dr. Sant Singh Khalsa": {
@@ -709,7 +737,7 @@
   {
     "id": "26F",
     "sttm_id": 5258,
-    "writer": "Sheikh Fareed Ji",
+    "writer": "Sheikh Farid Ji",
     "section": "Salok Fareed Jee",
     "subsection": null,
     "lines": [
@@ -717,10 +745,12 @@
         "id": "97TD",
         "source_page": 1380,
         "source_line": 7,
-        "gurmukhi": "PrIdw. duhu dIvI blµidAw; mlku bihTw Awie ]",
         "pronunciation": "",
         "pronunciation_information": "",
-        "type": null,
+        "type": "Pankti",
+        "gurmukhi": {
+          "SGPC": "PrIdw. duhu dIvI blµidAw; mlku bihTw Awie ]"
+        },
         "translations": {
           "English": {
             "Dr. Sant Singh Khalsa": {
@@ -763,10 +793,12 @@
         "id": "6YFR",
         "source_page": 1380,
         "source_line": 8,
-        "gurmukhi": "gVu lIqw. Gtu luitAw; dIvVy gieAw buJwie ]48]",
         "pronunciation": "",
         "pronunciation_information": "",
-        "type": null,
+        "type": "Pankti",
+        "gurmukhi": {
+          "SGPC": "gVu lIqw. Gtu luitAw; dIvVy gieAw buJwie ]48]"
+        },
         "translations": {
           "English": {
             "Dr. Sant Singh Khalsa": {
@@ -810,7 +842,7 @@
   {
     "id": "GNF",
     "sttm_id": 5259,
-    "writer": "Sheikh Fareed Ji",
+    "writer": "Sheikh Farid Ji",
     "section": "Salok Fareed Jee",
     "subsection": null,
     "lines": [
@@ -818,10 +850,12 @@
         "id": "8LXA",
         "source_page": 1380,
         "source_line": 8,
-        "gurmukhi": "PrIdw. vyKu kpwhY ij QIAw; ij isir QIAw, iqlwh ]",
         "pronunciation": "",
         "pronunciation_information": "",
-        "type": null,
+        "type": "Pankti",
+        "gurmukhi": {
+          "SGPC": "PrIdw. vyKu kpwhY ij QIAw; ij isir QIAw, iqlwh ]"
+        },
         "translations": {
           "English": {
             "Dr. Sant Singh Khalsa": {
@@ -864,10 +898,12 @@
         "id": "FC8E",
         "source_page": 1380,
         "source_line": 9,
-        "gurmukhi": "kmwdY Aru kwgdY; kuMny koieilAwh ]",
         "pronunciation": "",
         "pronunciation_information": "",
-        "type": null,
+        "type": "Pankti",
+        "gurmukhi": {
+          "SGPC": "kmwdY Aru kwgdY; kuMny koieilAwh ]"
+        },
         "translations": {
           "English": {
             "Dr. Sant Singh Khalsa": {
@@ -910,10 +946,12 @@
         "id": "4ZCD",
         "source_page": 1380,
         "source_line": 9,
-        "gurmukhi": "mMdy Aml kryidAw; eyh sjwie iqnwh ]49]",
         "pronunciation": "",
         "pronunciation_information": "",
-        "type": null,
+        "type": "Pankti",
+        "gurmukhi": {
+          "SGPC": "mMdy Aml kryidAw; eyh sjwie iqnwh ]49]"
+        },
         "translations": {
           "English": {
             "Dr. Sant Singh Khalsa": {
@@ -957,7 +995,7 @@
   {
     "id": "JNE",
     "sttm_id": 5260,
-    "writer": "Sheikh Fareed Ji",
+    "writer": "Sheikh Farid Ji",
     "section": "Salok Fareed Jee",
     "subsection": null,
     "lines": [
@@ -965,10 +1003,12 @@
         "id": "WV5H",
         "source_page": 1380,
         "source_line": 10,
-        "gurmukhi": "PrIdw. kMin muslw. sUPu gil; idil kwqI. guVu vwiq ]",
         "pronunciation": "",
         "pronunciation_information": "",
-        "type": null,
+        "type": "Pankti",
+        "gurmukhi": {
+          "SGPC": "PrIdw. kMin muslw. sUPu gil; idil kwqI. guVu vwiq ]"
+        },
         "translations": {
           "English": {
             "Dr. Sant Singh Khalsa": {
@@ -1011,10 +1051,12 @@
         "id": "GBR8",
         "source_page": 1380,
         "source_line": 10,
-        "gurmukhi": "bwhir idsY cwnxw; idil AMiDAwrI rwiq ]50]",
         "pronunciation": "",
         "pronunciation_information": "",
-        "type": null,
+        "type": "Pankti",
+        "gurmukhi": {
+          "SGPC": "bwhir idsY cwnxw; idil AMiDAwrI rwiq ]50]"
+        },
         "translations": {
           "English": {
             "Dr. Sant Singh Khalsa": {
@@ -1058,7 +1100,7 @@
   {
     "id": "J9K",
     "sttm_id": 5261,
-    "writer": "Sheikh Fareed Ji",
+    "writer": "Sheikh Farid Ji",
     "section": "Salok Fareed Jee",
     "subsection": null,
     "lines": [
@@ -1066,10 +1108,12 @@
         "id": "MTT9",
         "source_page": 1380,
         "source_line": 11,
-        "gurmukhi": "PrIdw. rqI rqu, n inklY; jy qnu cIrY koie ]",
         "pronunciation": "",
         "pronunciation_information": "",
-        "type": null,
+        "type": "Pankti",
+        "gurmukhi": {
+          "SGPC": "PrIdw. rqI rqu, n inklY; jy qnu cIrY koie ]"
+        },
         "translations": {
           "English": {
             "Dr. Sant Singh Khalsa": {
@@ -1112,10 +1156,12 @@
         "id": "RRNF",
         "source_page": 1380,
         "source_line": 11,
-        "gurmukhi": "jo qn rqy. rb isau; iqn qin rqu. n hoie ]51]",
         "pronunciation": "",
         "pronunciation_information": "",
-        "type": null,
+        "type": "Pankti",
+        "gurmukhi": {
+          "SGPC": "jo qn rqy. rb isau; iqn qin rqu. n hoie ]51]"
+        },
         "translations": {
           "English": {
             "Dr. Sant Singh Khalsa": {
@@ -1159,7 +1205,7 @@
   {
     "id": "LHT",
     "sttm_id": 5261,
-    "writer": "Guru Amar Das Ji",
+    "writer": "Guru Amardas Ji",
     "section": "Salok Fareed Jee",
     "subsection": null,
     "lines": [
@@ -1167,10 +1213,12 @@
         "id": "01BZ",
         "source_page": 1380,
         "source_line": 12,
-        "gurmukhi": "mÚ 3 ]",
         "pronunciation": "",
         "pronunciation_information": "",
-        "type": null,
+        "type": "Sirlekh",
+        "gurmukhi": {
+          "SGPC": "mÚ 3 ]"
+        },
         "translations": {
           "English": {
             "Dr. Sant Singh Khalsa": {
@@ -1213,10 +1261,12 @@
         "id": "SGK3",
         "source_page": 1380,
         "source_line": 12,
-        "gurmukhi": "iehu qnu sBo rqu hY; rqu ibnu qMnu. n hoie ]",
         "pronunciation": "",
         "pronunciation_information": "",
-        "type": null,
+        "type": "Pankti",
+        "gurmukhi": {
+          "SGPC": "iehu qnu sBo rqu hY; rqu ibnu qMnu. n hoie ]"
+        },
         "translations": {
           "English": {
             "Dr. Sant Singh Khalsa": {
@@ -1259,10 +1309,12 @@
         "id": "NMBB",
         "source_page": 1380,
         "source_line": 12,
-        "gurmukhi": "jo sh rqy Awpxy; iqqu qin loBu rqu. n hoie ]",
         "pronunciation": "",
         "pronunciation_information": "",
-        "type": null,
+        "type": "Pankti",
+        "gurmukhi": {
+          "SGPC": "jo sh rqy Awpxy; iqqu qin loBu rqu. n hoie ]"
+        },
         "translations": {
           "English": {
             "Dr. Sant Singh Khalsa": {
@@ -1305,10 +1357,12 @@
         "id": "U541",
         "source_page": 1380,
         "source_line": 13,
-        "gurmukhi": "BY pieAY qnu KIxu hoie; loBu rqu ivchu jwie ]",
         "pronunciation": "",
         "pronunciation_information": "",
-        "type": null,
+        "type": "Pankti",
+        "gurmukhi": {
+          "SGPC": "BY pieAY qnu KIxu hoie; loBu rqu ivchu jwie ]"
+        },
         "translations": {
           "English": {
             "Dr. Sant Singh Khalsa": {
@@ -1351,10 +1405,12 @@
         "id": "ASHT",
         "source_page": 1380,
         "source_line": 13,
-        "gurmukhi": "ijau bYsMqir. Dwqu suDu hoie; iqau hir kw Bau, durmiq mYlu gvwie ]",
         "pronunciation": "",
         "pronunciation_information": "",
-        "type": null,
+        "type": "Pankti",
+        "gurmukhi": {
+          "SGPC": "ijau bYsMqir. Dwqu suDu hoie; iqau hir kw Bau, durmiq mYlu gvwie ]"
+        },
         "translations": {
           "English": {
             "Dr. Sant Singh Khalsa": {
@@ -1397,10 +1453,12 @@
         "id": "91TK",
         "source_page": 1380,
         "source_line": 14,
-        "gurmukhi": "nwnk. qy jn sohxy; ij rqy hir rMgu lwie ]52]",
         "pronunciation": "",
         "pronunciation_information": "",
-        "type": null,
+        "type": "Pankti",
+        "gurmukhi": {
+          "SGPC": "nwnk. qy jn sohxy; ij rqy hir rMgu lwie ]52]"
+        },
         "translations": {
           "English": {
             "Dr. Sant Singh Khalsa": {
@@ -1444,7 +1502,7 @@
   {
     "id": "STV",
     "sttm_id": 5262,
-    "writer": "Sheikh Fareed Ji",
+    "writer": "Sheikh Farid Ji",
     "section": "Salok Fareed Jee",
     "subsection": null,
     "lines": [
@@ -1452,10 +1510,12 @@
         "id": "QF75",
         "source_page": 1380,
         "source_line": 14,
-        "gurmukhi": "PrIdw. soeI srvru FUiF lhu; ijQhu lBI vQu ]",
         "pronunciation": "",
         "pronunciation_information": "",
-        "type": null,
+        "type": "Pankti",
+        "gurmukhi": {
+          "SGPC": "PrIdw. soeI srvru FUiF lhu; ijQhu lBI vQu ]"
+        },
         "translations": {
           "English": {
             "Dr. Sant Singh Khalsa": {
@@ -1498,10 +1558,12 @@
         "id": "L9FS",
         "source_page": 1380,
         "source_line": 15,
-        "gurmukhi": "CpiV FUFY ikAw hovY; ickiV fubY hQu ]53]",
         "pronunciation": "",
         "pronunciation_information": "",
-        "type": null,
+        "type": "Pankti",
+        "gurmukhi": {
+          "SGPC": "CpiV FUFY ikAw hovY; ickiV fubY hQu ]53]"
+        },
         "translations": {
           "English": {
             "Dr. Sant Singh Khalsa": {
@@ -1545,7 +1607,7 @@
   {
     "id": "JDN",
     "sttm_id": 5263,
-    "writer": "Sheikh Fareed Ji",
+    "writer": "Sheikh Farid Ji",
     "section": "Salok Fareed Jee",
     "subsection": null,
     "lines": [
@@ -1553,10 +1615,12 @@
         "id": "11A3",
         "source_page": 1380,
         "source_line": 15,
-        "gurmukhi": "PrIdw nµFI. kMqu, n rwivE; vfI QI. mueIAwsu ]",
         "pronunciation": "",
         "pronunciation_information": "",
-        "type": null,
+        "type": "Pankti",
+        "gurmukhi": {
+          "SGPC": "PrIdw nµFI. kMqu, n rwivE; vfI QI. mueIAwsu ]"
+        },
         "translations": {
           "English": {
             "Dr. Sant Singh Khalsa": {
@@ -1599,10 +1663,12 @@
         "id": "RDYH",
         "source_page": 1380,
         "source_line": 16,
-        "gurmukhi": "Dn kUkyNdI, gor myN; qY sh. nw imlIAwsu ]54]",
         "pronunciation": "",
         "pronunciation_information": "",
-        "type": null,
+        "type": "Pankti",
+        "gurmukhi": {
+          "SGPC": "Dn kUkyNdI, gor myN; qY sh. nw imlIAwsu ]54]"
+        },
         "translations": {
           "English": {
             "Dr. Sant Singh Khalsa": {
@@ -1646,7 +1712,7 @@
   {
     "id": "JV1",
     "sttm_id": 5264,
-    "writer": "Sheikh Fareed Ji",
+    "writer": "Sheikh Farid Ji",
     "section": "Salok Fareed Jee",
     "subsection": null,
     "lines": [
@@ -1654,10 +1720,12 @@
         "id": "3C3E",
         "source_page": 1380,
         "source_line": 16,
-        "gurmukhi": "PrIdw. isru pilAw, dwVI plI; muCW BI plIAW ]",
         "pronunciation": "",
         "pronunciation_information": "",
-        "type": null,
+        "type": "Pankti",
+        "gurmukhi": {
+          "SGPC": "PrIdw. isru pilAw, dwVI plI; muCW BI plIAW ]"
+        },
         "translations": {
           "English": {
             "Dr. Sant Singh Khalsa": {
@@ -1700,10 +1768,12 @@
         "id": "A4G8",
         "source_page": 1380,
         "source_line": 17,
-        "gurmukhi": "ry mn gihly bwvly; mwxih ikAw rlIAW ]55]",
         "pronunciation": "",
         "pronunciation_information": "",
-        "type": null,
+        "type": "Pankti",
+        "gurmukhi": {
+          "SGPC": "ry mn gihly bwvly; mwxih ikAw rlIAW ]55]"
+        },
         "translations": {
           "English": {
             "Dr. Sant Singh Khalsa": {
@@ -1747,7 +1817,7 @@
   {
     "id": "AZ9",
     "sttm_id": 5265,
-    "writer": "Sheikh Fareed Ji",
+    "writer": "Sheikh Farid Ji",
     "section": "Salok Fareed Jee",
     "subsection": null,
     "lines": [
@@ -1755,10 +1825,12 @@
         "id": "MFDY",
         "source_page": 1380,
         "source_line": 17,
-        "gurmukhi": "PrIdw. koTy Dukxu kyqVw; ipr nIdVI invwir ]",
         "pronunciation": "",
         "pronunciation_information": "",
-        "type": null,
+        "type": "Pankti",
+        "gurmukhi": {
+          "SGPC": "PrIdw. koTy Dukxu kyqVw; ipr nIdVI invwir ]"
+        },
         "translations": {
           "English": {
             "Dr. Sant Singh Khalsa": {
@@ -1801,10 +1873,12 @@
         "id": "7NF8",
         "source_page": 1380,
         "source_line": 18,
-        "gurmukhi": "jo idh lDy gwxvy; gey ivlwiV ivlwiV ]56]",
         "pronunciation": "",
         "pronunciation_information": "",
-        "type": null,
+        "type": "Pankti",
+        "gurmukhi": {
+          "SGPC": "jo idh lDy gwxvy; gey ivlwiV ivlwiV ]56]"
+        },
         "translations": {
           "English": {
             "Dr. Sant Singh Khalsa": {
@@ -1848,7 +1922,7 @@
   {
     "id": "4JQ",
     "sttm_id": 5266,
-    "writer": "Sheikh Fareed Ji",
+    "writer": "Sheikh Farid Ji",
     "section": "Salok Fareed Jee",
     "subsection": null,
     "lines": [
@@ -1856,10 +1930,12 @@
         "id": "35RQ",
         "source_page": 1380,
         "source_line": 18,
-        "gurmukhi": "PrIdw. koTy mMfp mwVIAw; eyqu. n lwey icqu ]",
         "pronunciation": "",
         "pronunciation_information": "",
-        "type": null,
+        "type": "Pankti",
+        "gurmukhi": {
+          "SGPC": "PrIdw. koTy mMfp mwVIAw; eyqu. n lwey icqu ]"
+        },
         "translations": {
           "English": {
             "Dr. Sant Singh Khalsa": {
@@ -1902,10 +1978,12 @@
         "id": "SYS5",
         "source_page": 1380,
         "source_line": 19,
-        "gurmukhi": "imtI peI AqolvI; koie. n hosI imqu ]57]",
         "pronunciation": "",
         "pronunciation_information": "",
-        "type": null,
+        "type": "Pankti",
+        "gurmukhi": {
+          "SGPC": "imtI peI AqolvI; koie. n hosI imqu ]57]"
+        },
         "translations": {
           "English": {
             "Dr. Sant Singh Khalsa": {
@@ -1949,7 +2027,7 @@
   {
     "id": "GLB",
     "sttm_id": 5267,
-    "writer": "Sheikh Fareed Ji",
+    "writer": "Sheikh Farid Ji",
     "section": "Salok Fareed Jee",
     "subsection": null,
     "lines": [
@@ -1957,10 +2035,12 @@
         "id": "ZFDD",
         "source_page": 1380,
         "source_line": 19,
-        "gurmukhi": "PrIdw. mMfp mwlu, n lwie; mrg sqwxI, iciq Dir ]",
         "pronunciation": "",
         "pronunciation_information": "",
-        "type": null,
+        "type": "Pankti",
+        "gurmukhi": {
+          "SGPC": "PrIdw. mMfp mwlu, n lwie; mrg sqwxI, iciq Dir ]"
+        },
         "translations": {
           "English": {
             "Dr. Sant Singh Khalsa": {
@@ -2003,10 +2083,12 @@
         "id": "1STR",
         "source_page": 1381,
         "source_line": 1,
-        "gurmukhi": "sweI jwie sm@wil; ijQY hI qau vM\\xw ]58]",
         "pronunciation": "",
         "pronunciation_information": "",
-        "type": null,
+        "type": "Pankti",
+        "gurmukhi": {
+          "SGPC": "sweI jwie sm@wil; ijQY hI qau vM\\xw ]58]"
+        },
         "translations": {
           "English": {
             "Dr. Sant Singh Khalsa": {
