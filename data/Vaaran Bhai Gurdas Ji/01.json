@@ -791,7 +791,7 @@
         "pronunciation_information": null,
         "type": "Pankti",
         "gurmukhi": {
-          "SGPC": "roim roim ivic riKEn; kir bRhmMif kroiV sumwrw ["
+          "SGPC": "roim roim ivic riKEin; kir bRhmMif kroiV sumwrw ["
         },
         "translations": {
           "English": {
@@ -1527,7 +1527,7 @@
         "pronunciation_information": null,
         "type": "Pankti",
         "gurmukhi": {
-          "SGPC": "chMu bydW ky Drm miQ; Kit swsqR kiQ iriK suxwvY ["
+          "SGPC": "chuN bydW ky Drm miQ; Kit swsqR kiQ iriK suxwvY ["
         },
         "translations": {
           "English": {
@@ -2513,7 +2513,7 @@
         "pronunciation_information": null,
         "type": "Pankti",
         "gurmukhi": {
-          "SGPC": "igAwnu mqy suKu aupjY; jnm mrn kw Brmu cukweI ["
+          "SGPC": "igAwnu mqy suKu aUpjY; jnm mrn kw Brmu cukweI ["
         },
         "translations": {
           "English": {
@@ -3140,7 +3140,7 @@
         "pronunciation_information": null,
         "type": "Pankti",
         "gurmukhi": {
-          "SGPC": "iPir kiljuig AMdir dyih Dir; krmW AMdir Pyir PswvY ["
+          "SGPC": "iPir kiljug AMdir dyih Dir; krmW AMdir Pyir PswvY ["
         },
         "translations": {
           "English": {
@@ -3274,7 +3274,7 @@
         "pronunciation_information": null,
         "type": "Pankti",
         "gurmukhi": {
-          "SGPC": "pwieAw mwns dyih kau; AYQO cuikAw, TOr n TweI ["
+          "SGPC": "pwieAw mwns dyih kau; AYQO cuikAw, TOr n pweI ["
         },
         "translations": {
           "English": {
@@ -3324,7 +3324,7 @@
         "pronunciation_information": null,
         "type": "Pankti",
         "gurmukhi": {
-          "SGPC": "Bwau Bgiq prvwnu hY; jg hom gurpurib kmweI ["
+          "SGPC": "Bwau Bgiq prvwn hY; jg hom gurpurib kmweI ["
         },
         "translations": {
           "English": {
@@ -3558,7 +3558,7 @@
         "pronunciation_information": null,
         "type": "Pankti",
         "gurmukhi": {
-          "SGPC": "gur prmysru ieku hY; scw swhu, jgqu vxjwrw ["
+          "SGPC": "gur prmysru ieku hY; scw swhu, jgqu bxjwrw ["
         },
         "translations": {
           "English": {
@@ -4737,7 +4737,7 @@
         "pronunciation_information": null,
         "type": "Pankti",
         "gurmukhi": {
-          "SGPC": "cwry pYr Drm dy; cwir vrin ieku vrnu krwieAw ["
+          "SGPC": "cwry pYr Dr`m dy; cwir vrin ieku vrnu krwieAw ["
         },
         "translations": {
           "English": {
@@ -4896,7 +4896,7 @@
         "pronunciation_information": null,
         "type": "Pankti",
         "gurmukhi": {
-          "SGPC": "ryqu Aku Awhwru kir; roVw kI gur kIAw ivCweI ["
+          "SGPC": "ryqu A`ku Awhwru kir; roVw kI gur kIAw ivCweI ["
         },
         "translations": {
           "English": {
@@ -5339,7 +5339,7 @@
         "pronunciation_information": null,
         "type": "Pankti",
         "gurmukhi": {
-          "SGPC": "gx gMDrb Apsrw; ikMnr jK ciliq bhu Kyly ["
+          "SGPC": "gx gMDrb Apsrw; ikMnr j`K ciliq bhu Kyly ["
         },
         "translations": {
           "English": {
@@ -5523,7 +5523,8 @@
         "pronunciation_information": null,
         "type": "Pankti",
         "gurmukhi": {
-          "SGPC": "ijau kir sUrju inkilAw; qwry Cpy, AMDyru ploAw ["
+          "SGPC": "ijau kir sUrju inkilAw; qwry Cip, AMDyru ploAw [",
+          "Amrit Keertan": "ijau kir sUrju inkilAw; qwry Cpy, AMDyru ploAw ["
         },
         "translations": {
           "English": {
@@ -5573,7 +5574,8 @@
         "pronunciation_information": null,
         "type": "Pankti",
         "gurmukhi": {
-          "SGPC": "ijQy bwbw pYru Dry; pUjw Awsxu Qwpix soAw ["
+          "SGPC": "ijQy bwbw pYru Dir; pUjw Awsxu Qwpix soAw [",
+          "Amrit Keertan": "ijQy bwbw pYru Dry; pUjw Awsxu Qwpix soAw ["
         },
         "translations": {
           "English": {
@@ -5707,7 +5709,7 @@
         "pronunciation_information": null,
         "type": "Pankti",
         "gurmukhi": {
-          "SGPC": "bwby ifTI iprQmI; nvY KMif ijQY qik AwhI ["
+          "SGPC": "bwby if`TI iprQmI; nvY KMif ijQY qik AwhI ["
         },
         "translations": {
           "English": {
@@ -6041,7 +6043,7 @@
         "pronunciation_information": null,
         "type": "Pankti",
         "gurmukhi": {
-          "SGPC": "isD Cip bYTy prbqI; kaux jgiq kau pwir auqwrw ["
+          "SGPC": "isD Cip bYTy prbqI; kauxu jgiq kau pwir auqwrw ["
         },
         "translations": {
           "English": {
@@ -6125,7 +6127,7 @@
         "pronunciation_information": null,
         "type": "Pankti",
         "gurmukhi": {
-          "SGPC": "kil AweI, kuqy muhI; Kwju hoAw murdwru gusweI ["
+          "SGPC": "kil AweI, kuqy muhI; Kwju hoAw murdwr gusweI ["
         },
         "translations": {
           "English": {
@@ -6543,7 +6545,7 @@
         "pronunciation_information": null,
         "type": "Pankti",
         "gurmukhi": {
-          "SGPC": "bwbw iPir mky gieAw; nIl bsqR Dwry binvwrI ["
+          "SGPC": "bwbw iPir m`ky gieAw; nIl bsqR Dwry binvwrI ["
         },
         "translations": {
           "English": {
@@ -6568,7 +6570,7 @@
         "pronunciation_information": null,
         "type": "Pankti",
         "gurmukhi": {
-          "SGPC": "Awsw hiQ, ikqwb kiC; kUjw bWg muslw DwrI ["
+          "SGPC": "Awsw hiQ, ikqwb kiC; kUjw bWg mus`lw DwrI ["
         },
         "translations": {
           "English": {
@@ -6693,7 +6695,7 @@
         "pronunciation_information": null,
         "type": "Pankti",
         "gurmukhi": {
-          "SGPC": "tMgoN pkiV GsIitAw; iPirAw mkw, klw idKwrI ["
+          "SGPC": "tMgoN pkiV GsIitAw; iPirAw m`kw, klw idKwrI ["
         },
         "translations": {
           "English": {
@@ -7320,7 +7322,7 @@
         "pronunciation_information": null,
         "type": "Pankti",
         "gurmukhi": {
-          "SGPC": "nwnku kil ivic AwieAw; rbu PkIr ieko pihcwnw ["
+          "SGPC": "nwnk kil ivic AwieAw; rbu PkIru ieko pihcwnw ["
         },
         "translations": {
           "English": {
@@ -7554,7 +7556,7 @@
         "pronunciation_information": null,
         "type": "Pankti",
         "gurmukhi": {
-          "SGPC": "jwhr klw, n CpY CpweI [36["
+          "SGPC": "zwhr klw, n CpY CpweI [36["
         },
         "translations": {
           "English": {
@@ -7663,7 +7665,7 @@
         "pronunciation_information": null,
         "type": "Pankti",
         "gurmukhi": {
-          "SGPC": "jIqy nv KMf mydnI; siq nwmu dw ck® iPrwieAw ["
+          "SGPC": "jIqy nv KMf mydnI; siq nwmu dw c`k® iPrwieAw ["
         },
         "translations": {
           "English": {
@@ -8633,7 +8635,7 @@
         "pronunciation_information": null,
         "type": "Pankti",
         "gurmukhi": {
-          "SGPC": "isiD bolin, suix nwnkw; quih jg no ikAw krwmwiq idKweI ["
+          "SGPC": "isiD bolin, suix nwnkw; quih jg no krwmwiq idKweI ["
         },
         "translations": {
           "English": {
@@ -10121,7 +10123,7 @@
         "pronunciation_information": null,
         "type": "Pankti",
         "gurmukhi": {
-          "SGPC": "duAwpir siqgur hrIik®sn; hwhw hir hir nwmu jpwvY ["
+          "SGPC": "duAwpir siqgur hrIik®Sn; hwhw hir hir nwmu jpwvY ["
         },
         "translations": {
           "English": {
@@ -10146,7 +10148,7 @@
         "pronunciation_information": null,
         "type": "Pankti",
         "gurmukhi": {
-          "SGPC": "qRyqy siqgur rwm jI; rwrw rwm jpy suKu pwvY ["
+          "SGPC": "qyqy siqgur rwm jI; rwrw rwm jpy suKu pwvY ["
         },
         "translations": {
           "English": {
@@ -10171,7 +10173,7 @@
         "pronunciation_information": null,
         "type": "Pankti",
         "gurmukhi": {
-          "SGPC": "kiljuig nwnk gur goivMd; ggw goibMd nwmu AlwvY ["
+          "SGPC": "kiljuig nwnk gur goibMd; ggw goibMd nwmu AlwvY ["
         },
         "translations": {
           "English": {
@@ -10221,7 +10223,7 @@
         "pronunciation_information": null,
         "type": "Pankti",
         "gurmukhi": {
-          "SGPC": "cwro ACr ieku kir; vwihgurU jpu mMqRü jpwvY ["
+          "SGPC": "cwro ACr ieku kir; vwhgurU jpu mMqRü jpwvY ["
         },
         "translations": {
           "English": {
@@ -10246,7 +10248,7 @@
         "pronunciation_information": null,
         "type": "Pankti",
         "gurmukhi": {
-          "SGPC": "jhw qy aupijAw; iPir qhw smwvY [49[1[ ieku ["
+          "SGPC": "jhw qy aupijAw; iPir qhw smwvY [49[1["
         },
         "translations": {
           "English": {
