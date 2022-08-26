@@ -1,0 +1,39 @@
+name: main
+
+on:
+  push:
+    branches: [ main ]
+
+jobs:
+  build-mariadb:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v3
+    - name: Login
+      run: echo ${{ secrets.GITHUB_TOKEN }} | docker login ghcr.io --username ${{ github.actor }} --password-stdin
+    - uses: benjlevesque/short-sha@v1.2
+      id: short-sha
+    - name: Set Build Tag
+      run: echo "DOCKER_IMAGE_TAG=${{ steps.short-sha.outputs.sha }}-$(date +%s)" >> $GITHUB_ENV
+    - name: Build
+      run: docker build -f docker/mariadb/Dockerfile -t ghcr.io/gurbaninow/database:${{ env.DOCKER_IMAGE_TAG }} -t ghcr.io/gurbaninow/database:latest .
+    - name: Publish
+      run: docker push ghcr.io/gurbaninow/database
+
+  build-sqlite:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v3
+    - uses: actions/setup-node@v3
+    - run: npm ci
+    - name: Build database
+      run: npm run build-sqlite
+    - name: Store database artifact
+      uses: actions/upload-artifact@v3
+      with:
+        name: db-sqlite
+        path: build/database.sqlite
+    - name: Run tests
+      run: npm run test
+    - name: Run benchmarks
+      run: npm run benchmark
