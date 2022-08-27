@@ -37,7 +37,7 @@ jobs:
     - name: Store database artifact
       uses: actions/upload-artifact@v3
       with:
-        name: db-sqlite
+        name: database.sqlite
         path: build/database.sqlite
     #- name: Run tests
     #  run: npm run test

@@ -1,5 +1,4 @@
 *.swp
-data
 data-journal
 *.DS_Store
 tmux*
