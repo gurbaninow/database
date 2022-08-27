@@ -33,7 +33,7 @@ jobs:
       with:
         name: db-sqlite
         path: build/database.sqlite
-    - name: Run tests
-      run: npm run test
-    - name: Run benchmarks
-      run: npm run benchmark
+    #- name: Run tests
+    #  run: npm run test
+    #- name: Run benchmarks
+    #  run: npm run benchmark
