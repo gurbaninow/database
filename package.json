@@ -60,6 +60,8 @@
     "string-similarity": "^3.0.0"
   },
   "devDependencies": {
+    "@commitlint/cli": "^17.1.1",
+    "@commitlint/config-conventional": "^17.1.0",
     "chai": "^4.2.0",
     "docsify-cli": "^4.4.0",
     "eslint": "^8.6.0",
