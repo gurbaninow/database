@@ -12,14 +12,9 @@
     "generate-id": "node lib/generate-id.js",
     "release": "./release.sh",
     "test": "mocha test --exit",
-    "precommit": "lint-staged",
-    "serve-docs": "docsify serve docs -p 3001"
-  },
-  "lint-staged": {
-    "*.js": [
-      "eslint --fix",
-      "git add"
-    ]
+    "lint": "eslint .",
+    "precommit": "npm run lint",
+    "prepare": "husky install"
   },
   "keywords": [
     "gurbani",
@@ -72,6 +67,7 @@
     "eslint-plugin-import": "^2.25.4",
     "eslint-plugin-jest": "^25.3.4",
     "eslint-plugin-require-sort": "^1.2.2",
+    "husky": "^8.0.1",
     "lint-staged": "^13.0.3",
     "mocha": "^7.1.1"
   }

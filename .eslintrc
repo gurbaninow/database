@@ -1,8 +1,4 @@
 {
-  "parser": "@babel/eslint-parser",
-  "parserOptions": {
-    "requireConfigFile": false
-  },
   "extends": "airbnb-base",
   "root": true,
   "env": {
@@ -86,6 +82,8 @@
         "propertySyntaxSortOrder": ["none", "single", "multiple"]
       }
     ],
+    // Classes per file
+    "max-classes-per-file": [ "error", 2 ],
     // Add new line between imports
     "import/order": "off",
     "sort-imports": "off",

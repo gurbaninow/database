@@ -4,8 +4,8 @@
  */
 
 // Must bind any models to knex database connection
-const { Model } = require( 'objection' )
 const Knex = require( 'knex' )
+const { Model } = require( 'objection' )
 
 // Load config file from environment or locally
 const { KNEXFILE } = process.env
@@ -22,20 +22,21 @@ const { client } = config
 if ( client === 'sqlite3' ) knex.raw( 'PRAGMA case_sensitive_like = ON' ).then().catch()
 
 // Import all the models
+// eslint-disable-next-line require-sort/require-sort
 const Banis = require( './lib/models/Banis' )
-const Lines = require( './lib/models/Lines' )
-const LineTypes = require( './lib/models/LineTypes' )
-const Sections = require( './lib/models/Sections' )
-const Subsections = require( './lib/models/Subsections' )
-const Shabads = require( './lib/models/Shabads' )
 const Compositions = require( './lib/models/Compositions' )
-const Writers = require( './lib/models/Writers' )
-const Transliterations = require( './lib/models/Transliterations' )
-const Translations = require( './lib/models/Translations' )
-const TranslationSources = require( './lib/models/TranslationSources' )
 const Languages = require( './lib/models/Languages' )
-const Sources = require( './lib/models/Sources' )
 const LineContent = require( './lib/models/LineContent' )
+const LineTypes = require( './lib/models/LineTypes' )
+const Lines = require( './lib/models/Lines' )
+const Sections = require( './lib/models/Sections' )
+const Shabads = require( './lib/models/Shabads' )
+const Sources = require( './lib/models/Sources' )
+const Subsections = require( './lib/models/Subsections' )
+const TranslationSources = require( './lib/models/TranslationSources' )
+const Translations = require( './lib/models/Translations' )
+const Transliterations = require( './lib/models/Transliterations' )
+const Writers = require( './lib/models/Writers' )
 
 const { connection: { filename } } = config
 
