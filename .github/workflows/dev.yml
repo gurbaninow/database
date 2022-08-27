@@ -1,4 +1,4 @@
-name: main
+name: dev
 
 on:
   push:
@@ -14,19 +14,13 @@ jobs:
         submodules: true
     - name: Docker login
       run: echo ${{ secrets.GITHUB_TOKEN }} | docker login ghcr.io --username ${{ github.actor }} --password-stdin
-    - uses: benjlevesque/short-sha@v1.2
-      id: short-sha
-    - name: Set build tag
-      run: echo "DOCKER_IMAGE_TAG=${{ steps.short-sha.outputs.sha }}-$(date +%s)" >> $GITHUB_ENV
     - name: Build container
-      run: docker build -f docker/mariadb/Dockerfile -t ghcr.io/gurbaninow/database:${{ env.DOCKER_IMAGE_TAG }} .
+      run: docker build -f docker/mariadb/Dockerfile -t ghcr.io/gurbaninow/database:dev .
     - name: Publish container
-      run: |
-        docker push ghcr.io/gurbaninow/database:${{ env.DOCKER_IMAGE_TAG }}
-        docker tag ghcr.io/gurbaninow/database:${{ env.DOCKER_IMAGE_TAG }} ghcr.io/gurbaninow/database:latest
-        docker push ghcr.io/gurbaninow/database:latest
+      run: docker push ghcr.io/gurbaninow/database:dev
 
   build-sqlite:
+    if: "!contains(github.event.head_commit.message, '#release')"
     runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@v3
@@ -42,7 +36,3 @@ jobs:
       with:
         name: database.sqlite
         path: build/database.sqlite
-    #- name: Run tests
-    #  run: npm run test
-    #- name: Run benchmarks
-    #  run: npm run benchmark
