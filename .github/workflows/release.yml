@@ -25,7 +25,9 @@ jobs:
       run: |
         docker push ghcr.io/gurbaninow/database:${{ env.DOCKER_IMAGE_TAG }}
         docker tag ghcr.io/gurbaninow/database:${{ env.DOCKER_IMAGE_TAG }} ghcr.io/gurbaninow/database:latest
+        docker tag ghcr.io/gurbaninow/database:${{ env.DOCKER_IMAGE_TAG }} ghcr.io/gurbaninow/database:dev
         docker push ghcr.io/gurbaninow/database:latest
+        docker push ghcr.io/gurbaninow/database:dev
 
   build-sqlite:
     if: "contains(github.event.head_commit.message, '#release')"
