@@ -1,5 +1,5 @@
 {
-  "name": "@shabados/database",
+  "name": "@gurbaninow/database",
   "version": "4.7.0",
   "description": "The open gurbani database containing an evolving set of corrections. Used in Shabad OS software.",
   "scripts": {
@@ -42,21 +42,21 @@
   },
   "homepage": "https://github.com/ShabadOS/database#readme",
   "dependencies": {
-    "anyid": "^1.0.7",
-    "colors": "^1.4.0",
-    "commander": "^4.1.1",
-    "freshy": "^1.0.4",
-    "gurmukhi-utils": "^3.2.2",
-    "is-ascii": "^1.0.0",
+    "anyid": "^1",
+    "colors": "^1",
+    "commander": "^4",
+    "freshy": "^1",
+    "gurmukhi-utils": "^3",
+    "is-ascii": "1.0.0",
     "knex": "^0.19.5",
-    "lodash": "^4.17.15",
+    "lodash": "^4",
     "memoizee": "^0.4.14",
-    "objection": "^2.1.3",
-    "release-it": "^15.4.0",
-    "rimraf": "^3.0.2",
-    "snakecase-keys": "^3.1.0",
+    "objection": "^2",
+    "release-it": "^15",
+    "rimraf": "^3",
+    "snakecase-keys": "^3",
     "sqlite3": "^5",
-    "string-similarity": "^3.0.0"
+    "string-similarity": "^4"
   },
   "devDependencies": {
     "@commitlint/cli": "^17.1.1",
@@ -70,6 +70,6 @@
     "eslint-plugin-require-sort": "^1.2.2",
     "husky": "^8.0.1",
     "lint-staged": "^13.0.3",
-    "mocha": "^7.1.1"
+    "mocha": "^10.2.0"
   }
 }
