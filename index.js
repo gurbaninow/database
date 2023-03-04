@@ -19,7 +19,9 @@ Model.knex( knex )
 
 // Enable case-sensitivity for LIKE searches in SQLite3
 const { client } = config
-if ( client === 'sqlite3' ) knex.raw( 'PRAGMA case_sensitive_like = ON' ).then().catch()
+if ( client === 'sqlite3' || client === 'better-sqlite3' ) {
+  knex.raw( 'PRAGMA case_sensitive_like = ON' ).then().catch()
+}
 
 // Import all the models
 // eslint-disable-next-line require-sort/require-sort
