@@ -9,13 +9,13 @@ ENV KNEXFILE=./docker/mariadb/knexfile
 # Install node
 RUN apt update
 RUN apt -y install curl gnupg
-RUN curl -sL https://deb.nodesource.com/setup_16.x  | bash -
+RUN curl -sL https://deb.nodesource.com/setup_lts.x | bash -
 RUN apt -y install nodejs
 
 # Copy and install dependencies
 COPY ./package*.json ./
 RUN npm ci --no-audit
-RUN npm i mysql --no-audit
+RUN npm i mysql2 --no-audit
 
 # Copy repo
 COPY . .
