@@ -64,7 +64,7 @@
     "objection": "^3.0.2",
     "recursive-copy": "^2.0.14",
     "release-it": "^15",
-    "rimraf": "^4.4.1",
+    "rimraf": "^5.0.1",
     "snakecase-keys": "^5",
     "string-similarity": "^4"
   },
