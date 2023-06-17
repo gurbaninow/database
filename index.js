@@ -25,6 +25,7 @@ if ( client === 'sqlite3' || client === 'better-sqlite3' ) {
 
 // Import all the models
 // eslint-disable-next-line require-sort/require-sort
+const BaniFolders = require( './lib/models/BaniFolders' )
 const Banis = require( './lib/models/Banis' )
 const Compositions = require( './lib/models/Compositions' )
 const Languages = require( './lib/models/Languages' )
@@ -43,6 +44,7 @@ const Writers = require( './lib/models/Writers' )
 const { connection: { filename } } = config
 
 module.exports = {
+  BaniFolders,
   Banis,
   Languages,
   Lines,
