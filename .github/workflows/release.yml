@@ -60,7 +60,7 @@ jobs:
     - name: Backport data
       run: npm run backport
     - name: Checkout shabados/database:main
-      run: git clone --depth 1 --branch 4.8.2  https://github.com/shabados/database.git ../shabados
+      run: git clone --depth 1 --branch 4.8.7  https://github.com/shabados/database.git ../shabados
     - name: Copy backported data
       run: rm -rf ../shabados/data && cp -r data ../shabados/
     - name: Docker login
