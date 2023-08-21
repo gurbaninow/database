@@ -39,8 +39,3 @@ jobs:
     - run: npm ci
     - name: Build database
       run: npm run build-sqlite
-    - name: Store database artifact
-      uses: actions/upload-artifact@v3
-      with:
-        name: database.sqlite
-        path: build/database.sqlite
