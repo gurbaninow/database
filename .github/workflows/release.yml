@@ -5,11 +5,36 @@ on:
     branches: [ main ]
 
 jobs:
+  build-pkg:
+    if: "contains(github.event.head_commit.message, '#release')"
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+      packages: write
+    steps:
+    - uses: actions/checkout@v4
+      with:
+        token: ${{ secrets.PA_TOKEN }}
+        submodules: true
+    # Setup .npmrc file to publish to GitHub Packages
+    - uses: actions/setup-node@v3
+      with:
+        node-version: '20.x'
+        registry-url: 'https://npm.pkg.github.com'
+        # Defaults to the user or organization that owns the workflow file
+        scope: '@gurbaninow'
+    - run: npm ci
+    - name: Build database
+      run: npm run build-sqlite
+    - run: npm publish
+      env:
+        NODE_AUTH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+  
   build-mariadb:
     if: "contains(github.event.head_commit.message, '#release')"
     runs-on: ubuntu-latest
     steps:
-    - uses: actions/checkout@v3
+    - uses: actions/checkout@v4
       with:
         token: ${{ secrets.PA_TOKEN }}
         submodules: true
@@ -29,24 +54,11 @@ jobs:
         docker push ghcr.io/gurbaninow/database:latest
         docker push ghcr.io/gurbaninow/database:dev
 
-  build-sqlite:
-    if: "contains(github.event.head_commit.message, '#release')"
-    runs-on: ubuntu-latest
-    steps:
-    - uses: actions/checkout@v3
-      with:
-        token: ${{ secrets.PA_TOKEN }}
-        submodules: true
-    - uses: actions/setup-node@v3
-    - run: npm ci
-    - name: Build database
-      run: npm run build-sqlite
-
   backport:
     if: "contains(github.event.head_commit.message, '#release')"
     runs-on: ubuntu-latest
     steps:
-    - uses: actions/checkout@v3
+    - uses: actions/checkout@v4
       with:
         token: ${{ secrets.PA_TOKEN }}
         submodules: true
