@@ -16,11 +16,17 @@ jobs:
         uses: shimataro/ssh-key-action@v2
         with:
           key: ${{ secrets.SSH_KEY }}
-          known_hosts: ${{ secrets.KNOWN_HOSTS }}
+          known_hosts: unnecessary
+      - name: Retrieve Github Host Keys
+        run: ssh-keyscan github.com > ~/.ssh/known_hosts
       - name: Update submodule
         run: |
           git submodule update --init --recursive --checkout -f --remote -- "${{github.event.client_payload.module}}"
           git config --global user.name "github-actions[bot]"
           git config --global user.email "github-actions[bot]@users.noreply.github.com"
           git commit -am "ci: ${{github.event.client_payload.module}} - ${{github.event.client_payload.sha}}"
-          git push
+      - name: Push changes
+        uses: ad-m/github-push-action@master
+        with:
+          ssh: true
+          branch: ${{ github.ref }}
