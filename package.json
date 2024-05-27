@@ -1,6 +1,6 @@
 {
   "name": "@gurbaninow/database",
-  "version": "5.0.0-beta",
+  "version": "5.0.0-beta.1",
   "description": "The open gurbani database containing an evolving set of corrections. Used in Shabad OS software.",
   "scripts": {
     "import": "node lib/import.js",
