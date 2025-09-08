@@ -7,6 +7,15 @@
   },
   "plugins": ["jest", "require-sort"],
   "rules": {
+    // specify the maximum length of a line in your program
+    // https://eslint.org/docs/rules/max-len
+    "max-len": ["error", 120, 2, {
+      "ignoreUrls": true,
+      "ignoreComments": false,
+      "ignoreRegExpLiterals": true,
+      "ignoreStrings": true,
+      "ignoreTemplateLiterals": true
+    }],
     // Spacing in brackets is consistent and readable
     "array-bracket-spacing": ["error", "always"],
     // Spacing in brackets is consistent and readable
