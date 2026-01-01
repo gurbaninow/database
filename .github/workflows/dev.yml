@@ -9,13 +9,13 @@ jobs:
     if: "!contains(github.event.head_commit.message, '#release')"
     runs-on: ubuntu-latest
     steps:
-    - uses: actions/checkout@v4
+    - uses: actions/checkout@v6
       with:
         token: ${{ secrets.PA_TOKEN }}
         submodules: true
     - name: Docker login
       run: echo ${{ secrets.GITHUB_TOKEN }} | docker login ghcr.io --username ${{ github.actor }} --password-stdin
-    - uses: benjlevesque/short-sha@v2.2
+    - uses: benjlevesque/short-sha@599815c8ee942a9616c92bcfb4f947a3b670ab0b
       id: short-sha
     - name: Set build tag
       run: echo "DOCKER_IMAGE_TAG=dev-${{ steps.short-sha.outputs.sha }}-$(date +%s)" >> $GITHUB_ENV
@@ -31,13 +31,11 @@ jobs:
     if: "!contains(github.event.head_commit.message, '#release')"
     runs-on: ubuntu-latest
     steps:
-    - uses: actions/checkout@v4
+    - uses: actions/checkout@v6
       with:
         token: ${{ secrets.PA_TOKEN }}
         submodules: true
-    - uses: actions/setup-node@v3
+    - uses: actions/setup-node@v6
     - run: npm ci
-    - name: Build database
-      run: npm run build-sqlite
     - name: Build database
       run: npm run build-sqlite
