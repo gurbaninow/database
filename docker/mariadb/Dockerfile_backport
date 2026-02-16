@@ -1,0 +1,45 @@
+# Multi-stage docker build. Builds data first, and then switches to pure MariaDB.
+FROM mariadb:10 as generate
+
+WORKDIR /usr/app
+
+# Install Node.js v10.24.1 from official prebuilt binaries.
+RUN apt-get update && \
+  apt-get install -y --no-install-recommends build-essential python3 curl xz-utils && \
+  rm -rf /var/lib/apt/lists/*
+RUN set -eux; \
+  arch="$(dpkg --print-architecture)"; \
+  case "$arch" in \
+    amd64) node_url='https://nodejs.org/dist/v10.24.1/node-v10.24.1-linux-x64.tar.xz' ;; \
+    arm64) node_url='https://nodejs.org/dist/v10.24.1/node-v10.24.1-linux-arm64.tar.xz' ;; \
+    *) echo "Unsupported architecture: $arch"; exit 1 ;; \
+  esac; \
+  curl -fsSLO "$node_url"; \
+  tarball="$(basename "$node_url")"; \
+  tar -xJf "$tarball" -C /usr/local --strip-components=1 --no-same-owner; \
+  rm -f "$tarball"; \
+  node --version; \
+  npm --version
+
+# Copy and install dependencies
+COPY ./package*.json ./
+RUN npm ci --no-audit
+RUN npm i mysql --no-audit --no-save --no-package-lock
+
+# Copy repo
+COPY . .
+
+# Build it
+ENV KNEXFILE=./docker/mariadb/knexfile
+COPY docker/mariadb/my.cnf /etc/mysql/my.cnf
+RUN chmod +x docker/mariadb/build_db.sh
+RUN docker/mariadb/build_db.sh
+
+## Just the DB with data
+FROM mariadb:10
+
+COPY --from=generate /etc/mysql /etc/mysql
+COPY --from=generate /data /data
+
+ENTRYPOINT []
+CMD [ "mysqld", "--user=root" ]

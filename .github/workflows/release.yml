@@ -69,7 +69,7 @@ jobs:
     - name: Checkout shabados/database:main
       run: git clone --depth 1 --branch 4.8.7  https://github.com/shabados/database.git ../shabados
     - name: Copy backported data
-      run: rm -rf ../shabados/data && cp -r data ../shabados/
+      run: rm -rf ../shabados/data && cp -r data ../shabados/ && cp docker/mariadb/Dockerfile_backport ../shabados/docker/mariadb/Dockerfile
     - name: Docker login
       run: echo ${{ secrets.GITHUB_TOKEN }} | docker login ghcr.io --username ${{ github.actor }} --password-stdin
     - uses: benjlevesque/short-sha@599815c8ee942a9616c92bcfb4f947a3b670ab0b

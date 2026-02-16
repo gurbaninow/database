@@ -1,38 +1,33 @@
 # Multi-stage docker build. Builds data first, and then switches to pure MariaDB.
-FROM mariadb:10 as generate
+FROM mariadb:12 as generate
 
 WORKDIR /usr/app
 
-ENV KNEXFILE=./docker/mariadb/knexfile
-
 # Install node
-ARG NODE_MAJOR=20
-RUN apt-get update
-RUN apt-get -y install ca-certificates curl gnupg git
-RUN mkdir -p /etc/apt/keyrings
-RUN curl -fsSL https://deb.nodesource.com/gpgkey/nodesource-repo.gpg.key | gpg --dearmor -o /etc/apt/keyrings/nodesource.gpg
-RUN echo "deb [signed-by=/etc/apt/keyrings/nodesource.gpg] https://deb.nodesource.com/node_$NODE_MAJOR.x nodistro main" | tee /etc/apt/sources.list.d/nodesource.list
-RUN apt-get update
-RUN apt-get -y install nodejs
+RUN apt-get update && apt-get install -y --no-install-recommends curl git
+RUN curl -fsSL https://deb.nodesource.com/setup_lts.x | bash
+RUN apt-get install -y --no-install-recommends nodejs && rm -rf /var/lib/apt/lists/*
+RUN npm install -g npm
 
 # Copy and install dependencies
 COPY ./package*.json .
-RUN npm ci
-RUN npm i mysql2
+RUN npm ci --no-audit
+RUN npm i mysql2 --no-audit --no-save --no-package-lock
 
 # Copy repo
 COPY . .
 
 # Build it
+ENV KNEXFILE=./docker/mariadb/knexfile
 COPY docker/mariadb/my.cnf /etc/mysql/my.cnf
 RUN chmod +x docker/mariadb/build_db.sh
 RUN docker/mariadb/build_db.sh
 
 ## Just the DB with data
-FROM mariadb:10
+FROM mariadb:12
 
 COPY --from=generate /etc/mysql /etc/mysql
 COPY --from=generate /data /data
 
 ENTRYPOINT []
-CMD [ "mysqld", "--user=root" ]
+CMD [ "mariadbd", "--user=root" ]
